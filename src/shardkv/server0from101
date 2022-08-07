@@ -1,0 +1,797 @@
+2022/05/04 18:13:56 I am 0 from gid 101, Calling tick(). Got latest config to be {0 [0 0 0 0 0 0 0 0 0 0] map[]}
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 0 at time 2022-05-04 18:13:57.145805 -0400 EDT m=+0.280605131
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 1 with op {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 1 OK with op {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 1
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 1
+2022/05/04 18:13:57 I am 0 from gid 101, Calling tick(). Got latest config to be {1 [100 100 100 100 100 100 100 100 100 100] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2]]}
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Reconfiguration 1   false  0 {1 [100 100 100 100 100 100 100 100 100 100] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2]]}}. Global Seq is 1 at time 2022-05-04 18:13:57.260329 -0400 EDT m=+0.395132512
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 2 with op {Reconfiguration 1   false  0 {1 [100 100 100 100 100 100 100 100 100 100] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2]]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 2 OK with op {Reconfiguration 1   false  0 {1 [100 100 100 100 100 100 100 100 100 100] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2]]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 2
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Reconfiguration 1   false  0 {1 [100 100 100 100 100 100 100 100 100 100] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2]]}}
+2022/05/04 18:13:57 I am 0 from gid 101, reconfiguring for config number: 1
+2022/05/04 18:13:57 I am 0 from gid 101, Moved data over to 1. cwp is 0, Data is map[0:0xc000205320 1:0xc000205330 2:0xc000205340 3:0xc000205350 4:0xc000205360 5:0xc000205370 6:0xc000205380 7:0xc000205390 8:0xc0002053a0 9:0xc0002053b0]
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 2
+2022/05/04 18:13:57 I am 0 from gid 101. I tried to reconfigure on config num 1, err is OK
+2022/05/04 18:13:57 I am 0 from gid 101, Set current config num to 1
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.001485 -0400 EDT m=+0.136281709-4130725647525444129-11 9 6263450610539110790 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 2 at time 2022-05-04 18:13:57.281678 -0400 EDT m=+0.416482323
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 3 with op {Put 2022-05-04 18:13:57.001485 -0400 EDT m=+0.136281709-4130725647525444129-11 9 6263450610539110790 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 3 OK with op {Put 2022-05-04 18:13:57.001485 -0400 EDT m=+0.136281709-4130725647525444129-11 9 6263450610539110790 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 3
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.001485 -0400 EDT m=+0.136281709-4130725647525444129-11 9 6263450610539110790 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 3
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.001468 -0400 EDT m=+0.136265117-2614645268449045267-7 8 2933568871211445515 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 3 at time 2022-05-04 18:13:57.302436 -0400 EDT m=+0.437241021
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 4 with op {Put 2022-05-04 18:13:57.001468 -0400 EDT m=+0.136265117-2614645268449045267-7 8 2933568871211445515 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 4 OK with op {Put 2022-05-04 18:13:57.001468 -0400 EDT m=+0.136265117-2614645268449045267-7 8 2933568871211445515 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 4
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.001468 -0400 EDT m=+0.136265117-2614645268449045267-7 8 2933568871211445515 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 4
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 4 at time 2022-05-04 18:13:57.34415 -0400 EDT m=+0.478955363
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 5 with op {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 5 OK with op {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 5
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 5
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 5 at time 2022-05-04 18:13:57.475931 -0400 EDT m=+0.610739749
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 6 with op {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 6 OK with op {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 6
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 6
+2022/05/04 18:13:57 I am 0 from gid 101, Calling tick(). Got latest config to be {2 [100 100 100 100 100 101 101 101 101 101] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5]]}
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Reconfiguration 2   false  1 {2 [100 100 100 100 100 101 101 101 101 101] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5]]}}. Global Seq is 6 at time 2022-05-04 18:13:57.550971 -0400 EDT m=+0.685782362
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 7 with op {Reconfiguration 2   false  1 {2 [100 100 100 100 100 101 101 101 101 101] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5]]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 7 OK with op {Reconfiguration 2   false  1 {2 [100 100 100 100 100 101 101 101 101 101] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5]]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 7
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Reconfiguration 2   false  1 {2 [100 100 100 100 100 101 101 101 101 101] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5]]}}
+2022/05/04 18:13:57 I am 0 from gid 101, reconfiguring for config number: 2
+2022/05/04 18:13:57 I am 0 from gid 101, Moved data over to 2. cwp is 1, Data is map[0:0xc0002742c0 1:0xc0002742d0 2:0xc0002742e0 3:0xc0002742f0 4:0xc000274300 5:0xc000274310 6:0xc000274320 7:0xc000274330 8:0xc000274340 9:0xc000274350]
+2022/05/04 18:13:57 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-0
+2022/05/04 18:13:57 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:57 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-1
+2022/05/04 18:13:57 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:57 I am 0 from gid 101, and I received map[] for shard 5
+2022/05/04 18:13:57 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-0
+2022/05/04 18:13:57 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:57 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-1
+2022/05/04 18:13:57 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:57 I am 0 from gid 101, and I received map[] for shard 6
+2022/05/04 18:13:57 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-0
+2022/05/04 18:13:57 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:57 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-1
+2022/05/04 18:13:57 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:57 I am 0 from gid 101, and I received map[9:3671965571] for shard 7
+2022/05/04 18:13:57 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-0
+2022/05/04 18:13:57 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:57 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-1
+2022/05/04 18:13:57 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:57 I am 0 from gid 101, and I received map[] for shard 8
+2022/05/04 18:13:57 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-0
+2022/05/04 18:13:57 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:57 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-1
+2022/05/04 18:13:57 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:57 I am 0 from gid 101, and I received map[] for shard 9
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 7
+2022/05/04 18:13:57 I am 0 from gid 101. I tried to reconfigure on config num 2, err is OK
+2022/05/04 18:13:57 I am 0 from gid 101, Set current config num to 2
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 7 at time 2022-05-04 18:13:57.571856 -0400 EDT m=+0.706667273
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 8 with op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 8 OK with op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 8
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 8
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 8 at time 2022-05-04 18:13:57.623334 -0400 EDT m=+0.758146864
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 9 with op {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 9 OK with op {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 9
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, apply op: {Put 2022-05-04 18:13:57.001453 -0400 EDT m=+0.136249861-475387731303772507-5 7 3510942875414458836 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, putKey: 7, old: , new: 2825721994, shard: 5
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 9
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Get 2022-05-04 18:13:57.643928 -0400 EDT m=+0.778741075-1735408227924392986-28   false 7 2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 9 at time 2022-05-04 18:13:57.644264 -0400 EDT m=+0.779077585
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 10 with op {Get 2022-05-04 18:13:57.643928 -0400 EDT m=+0.778741075-1735408227924392986-28   false 7 2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 10 OK with op {Get 2022-05-04 18:13:57.643928 -0400 EDT m=+0.778741075-1735408227924392986-28   false 7 2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 10
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Get 2022-05-04 18:13:57.643928 -0400 EDT m=+0.778741075-1735408227924392986-28   false 7 2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, apply op: {Get 2022-05-04 18:13:57.643928 -0400 EDT m=+0.778741075-1735408227924392986-28   false 7 2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, getKey: 7, value: 2825721994, shard: 5
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 10
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 10 at time 2022-05-04 18:13:57.707708 -0400 EDT m=+0.842523324
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 11 with op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 11 OK with op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 11
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 11
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.707608 -0400 EDT m=+0.842422852-3048095219941138516-30 7 4011359550169803385 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 11 at time 2022-05-04 18:13:57.728039 -0400 EDT m=+0.862854527
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 12 with op {Put 2022-05-04 18:13:57.707608 -0400 EDT m=+0.842422852-3048095219941138516-30 7 4011359550169803385 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 12 OK with op {Put 2022-05-04 18:13:57.707608 -0400 EDT m=+0.842422852-3048095219941138516-30 7 4011359550169803385 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 12
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.707608 -0400 EDT m=+0.842422852-3048095219941138516-30 7 4011359550169803385 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, apply op: {Put 2022-05-04 18:13:57.707608 -0400 EDT m=+0.842422852-3048095219941138516-30 7 4011359550169803385 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, putKey: 7, old: 2825721994, new: 1613838584, shard: 5
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 12
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Get 2022-05-04 18:13:57.748934 -0400 EDT m=+0.883750480-605753339451635183-32   false 7 2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 12 at time 2022-05-04 18:13:57.749316 -0400 EDT m=+0.884132534
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 13 with op {Get 2022-05-04 18:13:57.748934 -0400 EDT m=+0.883750480-605753339451635183-32   false 7 2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 13 OK with op {Get 2022-05-04 18:13:57.748934 -0400 EDT m=+0.883750480-605753339451635183-32   false 7 2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 13
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Get 2022-05-04 18:13:57.748934 -0400 EDT m=+0.883750480-605753339451635183-32   false 7 2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, apply op: {Get 2022-05-04 18:13:57.748934 -0400 EDT m=+0.883750480-605753339451635183-32   false 7 2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, getKey: 7, value: 1613838584, shard: 5
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 13
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.797613 -0400 EDT m=+0.932430841-3495648494720690627-35 7 5570714739468966812 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 13 at time 2022-05-04 18:13:57.798014 -0400 EDT m=+0.932831219
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 14 with op {Put 2022-05-04 18:13:57.797613 -0400 EDT m=+0.932430841-3495648494720690627-35 7 5570714739468966812 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 14 OK with op {Put 2022-05-04 18:13:57.797613 -0400 EDT m=+0.932430841-3495648494720690627-35 7 5570714739468966812 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 14
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.797613 -0400 EDT m=+0.932430841-3495648494720690627-35 7 5570714739468966812 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, apply op: {Put 2022-05-04 18:13:57.797613 -0400 EDT m=+0.932430841-3495648494720690627-35 7 5570714739468966812 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, putKey: 7, old: 1613838584, new: 2555193208, shard: 5
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 14
+2022/05/04 18:13:57 I am 0 from gid 101, Calling tick(). Got latest config to be {3 [100 100 100 100 102 101 101 101 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Reconfiguration 3   false  2 {3 [100 100 100 100 102 101 101 101 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}. Global Seq is 14 at time 2022-05-04 18:13:57.874502 -0400 EDT m=+1.009321870
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 15 with op {Reconfiguration 3   false  2 {3 [100 100 100 100 102 101 101 101 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 15 OK with op {Reconfiguration 3   false  2 {3 [100 100 100 100 102 101 101 101 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 15
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Reconfiguration 3   false  2 {3 [100 100 100 100 102 101 101 101 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:57 I am 0 from gid 101, reconfiguring for config number: 3
+2022/05/04 18:13:57 I am 0 from gid 101, Moved data over to 3. cwp is 2, Data is map[0:0xc00049d2c0 1:0xc00049d2d0 2:0xc00049d2e0 3:0xc00049d2f0 4:0xc00049d300 5:0xc00049d310 6:0xc00049d320 7:0xc00049d330 8:0xc00049d340 9:0xc00049d350]
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 15
+2022/05/04 18:13:57 I am 0 from gid 101. I tried to reconfigure on config num 3, err is OK
+2022/05/04 18:13:57 I am 0 from gid 101, Set current config num to 3
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Get 2022-05-04 18:13:57.818634 -0400 EDT m=+0.953452207-147732753003572227-37   false 7 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 15 at time 2022-05-04 18:13:57.874743 -0400 EDT m=+1.009562045
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 16 with op {Get 2022-05-04 18:13:57.818634 -0400 EDT m=+0.953452207-147732753003572227-37   false 7 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 16 OK with op {Get 2022-05-04 18:13:57.818634 -0400 EDT m=+0.953452207-147732753003572227-37   false 7 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 16
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Get 2022-05-04 18:13:57.818634 -0400 EDT m=+0.953452207-147732753003572227-37   false 7 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, apply op: {Get 2022-05-04 18:13:57.818634 -0400 EDT m=+0.953452207-147732753003572227-37   false 7 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, getKey: 7, value: 2555193208, shard: 5
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 16
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 16 at time 2022-05-04 18:13:57.89509 -0400 EDT m=+1.029909715
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 17 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 17 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 17
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 17
+2022/05/04 18:13:57 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 17 at time 2022-05-04 18:13:57.915398 -0400 EDT m=+1.050218743
+2022/05/04 18:13:57 I am 0 from gid 101 is proposing seq 18 with op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, I am sending over map[] for shard 8 and configNum 2
+2022/05/04 18:13:57 I am 0 from gid 101, I am sending over map[] for shard 9 and configNum 2
+2022/05/04 18:13:57 I am 0 from gid 101 propose seq 18 OK with op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Applying change for index 18
+2022/05/04 18:13:57 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:57 I am 0 from gid 101, Setting globalSeq to 18
+2022/05/04 18:13:57 I am 0 from gid 101, I am sending over map[] for shard 8 and configNum 2
+2022/05/04 18:13:57 I am 0 from gid 101, I am sending over map[] for shard 8 and configNum 2
+2022/05/04 18:13:57 I am 0 from gid 101, I am sending over map[] for shard 9 and configNum 2
+2022/05/04 18:13:57 I am 0 from gid 101, I am sending over map[] for shard 9 and configNum 2
+2022/05/04 18:13:58 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 18 at time 2022-05-04 18:13:58.027103 -0400 EDT m=+1.161926189
+2022/05/04 18:13:58 I am 0 from gid 101 is proposing seq 19 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101 propose seq 19 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Applying change for index 19
+2022/05/04 18:13:58 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Setting globalSeq to 19
+2022/05/04 18:13:58 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 19 at time 2022-05-04 18:13:58.058091 -0400 EDT m=+1.192914999
+2022/05/04 18:13:58 I am 0 from gid 101 is proposing seq 20 with op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101 propose seq 20 OK with op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Applying change for index 20
+2022/05/04 18:13:58 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Setting globalSeq to 20
+2022/05/04 18:13:58 I am 0 from gid 101, Starting to try for agreement on op {Get 2022-05-04 18:13:57.581755 -0400 EDT m=+0.716567275-1945949465350423999-25   false 8 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 20 at time 2022-05-04 18:13:58.078451 -0400 EDT m=+1.213275563
+2022/05/04 18:13:58 I am 0 from gid 101 is proposing seq 21 with op {Get 2022-05-04 18:13:57.581755 -0400 EDT m=+0.716567275-1945949465350423999-25   false 8 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101 propose seq 21 OK with op {Get 2022-05-04 18:13:57.581755 -0400 EDT m=+0.716567275-1945949465350423999-25   false 8 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Applying change for index 21
+2022/05/04 18:13:58 I am 0 from gid 101, Trying to apply change for {Get 2022-05-04 18:13:57.581755 -0400 EDT m=+0.716567275-1945949465350423999-25   false 8 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, apply op: {Get 2022-05-04 18:13:57.581755 -0400 EDT m=+0.716567275-1945949465350423999-25   false 8 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, getKey: 8, value: , shard: 6
+2022/05/04 18:13:58 I am 0 from gid 101, Setting globalSeq to 21
+2022/05/04 18:13:58 I am 0 from gid 101, Calling tick(). Got latest config to be {4 [100 100 100 100 102 101 100 101 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}
+2022/05/04 18:13:58 I am 0 from gid 101, Starting to try for agreement on op {Reconfiguration 4   false  3 {4 [100 100 100 100 102 101 100 101 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}. Global Seq is 21 at time 2022-05-04 18:13:58.147347 -0400 EDT m=+1.282174068
+2022/05/04 18:13:58 I am 0 from gid 101 is proposing seq 22 with op {Reconfiguration 4   false  3 {4 [100 100 100 100 102 101 100 101 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:58 I am 0 from gid 101 propose seq 22 OK with op {Reconfiguration 4   false  3 {4 [100 100 100 100 102 101 100 101 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Applying change for index 22
+2022/05/04 18:13:58 I am 0 from gid 101, Trying to apply change for {Reconfiguration 4   false  3 {4 [100 100 100 100 102 101 100 101 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:58 I am 0 from gid 101, reconfiguring for config number: 4
+2022/05/04 18:13:58 I am 0 from gid 101, Moved data over to 4. cwp is 3, Data is map[0:0xc000345cd0 1:0xc000345ce0 2:0xc000345cf0 3:0xc000345d00 4:0xc000345d10 5:0xc000345d20 6:0xc000345d30 7:0xc000345d40 8:0xc000345d50 9:0xc000345d60]
+2022/05/04 18:13:58 I am 0 from gid 101, Setting globalSeq to 22
+2022/05/04 18:13:58 I am 0 from gid 101. I tried to reconfigure on config num 4, err is OK
+2022/05/04 18:13:58 I am 0 from gid 101, Set current config num to 4
+2022/05/04 18:13:58 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 22 at time 2022-05-04 18:13:58.168108 -0400 EDT m=+1.302934910
+2022/05/04 18:13:58 I am 0 from gid 101 is proposing seq 23 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101 propose seq 23 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Applying change for index 23
+2022/05/04 18:13:58 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Setting globalSeq to 23
+2022/05/04 18:13:58 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 23 at time 2022-05-04 18:13:58.189962 -0400 EDT m=+1.324789639
+2022/05/04 18:13:58 I am 0 from gid 101 is proposing seq 24 with op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, I am sending over map[] for shard 6 and configNum 3
+2022/05/04 18:13:58 I am 0 from gid 101 propose seq 24 OK with op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Applying change for index 24
+2022/05/04 18:13:58 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Setting globalSeq to 24
+2022/05/04 18:13:58 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 24 at time 2022-05-04 18:13:58.310517 -0400 EDT m=+1.445348385
+2022/05/04 18:13:58 I am 0 from gid 101 is proposing seq 25 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, I am sending over map[] for shard 6 and configNum 3
+2022/05/04 18:13:58 I am 0 from gid 101 propose seq 25 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Applying change for index 25
+2022/05/04 18:13:58 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Setting globalSeq to 25
+2022/05/04 18:13:58 I am 0 from gid 101, Calling tick(). Got latest config to be {5 [100 100 100 100 102 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}
+2022/05/04 18:13:58 I am 0 from gid 101, Starting to try for agreement on op {Reconfiguration 5   false  4 {5 [100 100 100 100 102 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}. Global Seq is 25 at time 2022-05-04 18:13:58.411312 -0400 EDT m=+1.546145772
+2022/05/04 18:13:58 I am 0 from gid 101 is proposing seq 26 with op {Reconfiguration 5   false  4 {5 [100 100 100 100 102 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:58 I am 0 from gid 101 propose seq 26 OK with op {Reconfiguration 5   false  4 {5 [100 100 100 100 102 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Applying change for index 26
+2022/05/04 18:13:58 I am 0 from gid 101, Trying to apply change for {Reconfiguration 5   false  4 {5 [100 100 100 100 102 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:58 I am 0 from gid 101, reconfiguring for config number: 5
+2022/05/04 18:13:58 I am 0 from gid 101, Moved data over to 5. cwp is 4, Data is map[0:0xc000275fa0 1:0xc000275fb0 2:0xc000275fc0 3:0xc000275fd0 4:0xc000275fe0 5:0xc000275ff0 6:0xc00042e000 7:0xc00042e010 8:0xc00042e020 9:0xc00042e030]
+2022/05/04 18:13:58 I am 0 from gid 101, Setting globalSeq to 26
+2022/05/04 18:13:58 I am 0 from gid 101. I tried to reconfigure on config num 5, err is OK
+2022/05/04 18:13:58 I am 0 from gid 101, Set current config num to 5
+2022/05/04 18:13:58 I am 0 from gid 101, I am sending over map[] for shard 6 and configNum 3
+2022/05/04 18:13:58 I am 0 from gid 101, I am sending over map[9:3671965571] for shard 7 and configNum 4
+2022/05/04 18:13:58 I am 0 from gid 101, I am sending over map[] for shard 6 and configNum 3
+2022/05/04 18:13:58 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  5 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 26 at time 2022-05-04 18:13:58.442909 -0400 EDT m=+1.577743363
+2022/05/04 18:13:58 I am 0 from gid 101 is proposing seq 27 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  5 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, I am sending over map[9:3671965571] for shard 7 and configNum 4
+2022/05/04 18:13:58 I am 0 from gid 101 propose seq 27 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  5 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Applying change for index 27
+2022/05/04 18:13:58 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  5 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Setting globalSeq to 27
+2022/05/04 18:13:58 I am 0 from gid 101, I am sending over map[9:3671965571] for shard 7 and configNum 4
+2022/05/04 18:13:58 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  5 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 27 at time 2022-05-04 18:13:58.575324 -0400 EDT m=+1.710161491
+2022/05/04 18:13:58 I am 0 from gid 101 is proposing seq 28 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  5 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101 propose seq 28 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  5 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Applying change for index 28
+2022/05/04 18:13:58 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  5 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Setting globalSeq to 28
+2022/05/04 18:13:58 I am 0 from gid 101, I am sending over map[9:3671965571] for shard 7 and configNum 4
+2022/05/04 18:13:58 I am 0 from gid 101, Calling tick(). Got latest config to be {6 [100 100 100 100 102 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}
+2022/05/04 18:13:58 I am 0 from gid 101, Starting to try for agreement on op {Reconfiguration 6   false  5 {6 [100 100 100 100 102 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}. Global Seq is 28 at time 2022-05-04 18:13:58.672387 -0400 EDT m=+1.807227778
+2022/05/04 18:13:58 I am 0 from gid 101 is proposing seq 29 with op {Reconfiguration 6   false  5 {6 [100 100 100 100 102 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:58 I am 0 from gid 101 propose seq 29 OK with op {Reconfiguration 6   false  5 {6 [100 100 100 100 102 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Applying change for index 29
+2022/05/04 18:13:58 I am 0 from gid 101, Trying to apply change for {Reconfiguration 6   false  5 {6 [100 100 100 100 102 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:58 I am 0 from gid 101, reconfiguring for config number: 6
+2022/05/04 18:13:58 I am 0 from gid 101, Moved data over to 6. cwp is 5, Data is map[0:0xc000583fd0 1:0xc000583fe0 2:0xc000583ff0 3:0xc000282000 4:0xc000282010 5:0xc000282020 6:0xc000282030 7:0xc000282040 8:0xc000282050 9:0xc000282060]
+2022/05/04 18:13:58 I am 0 from gid 101, Setting globalSeq to 29
+2022/05/04 18:13:58 I am 0 from gid 101. I tried to reconfigure on config num 6, err is OK
+2022/05/04 18:13:58 I am 0 from gid 101, Set current config num to 6
+2022/05/04 18:13:58 I am 0 from gid 101, I am sending over map[9:3671965571] for shard 7 and configNum 4
+2022/05/04 18:13:58 I am 0 from gid 101, I am sending over map[9:3671965571] for shard 7 and configNum 4
+2022/05/04 18:13:58 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  6 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 29 at time 2022-05-04 18:13:58.726257 -0400 EDT m=+1.861098619
+2022/05/04 18:13:58 I am 0 from gid 101 is proposing seq 30 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  6 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101 propose seq 30 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  6 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Applying change for index 30
+2022/05/04 18:13:58 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  6 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Setting globalSeq to 30
+2022/05/04 18:13:58 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  6 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 30 at time 2022-05-04 18:13:58.859318 -0400 EDT m=+1.994163729
+2022/05/04 18:13:58 I am 0 from gid 101 is proposing seq 31 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  6 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101 propose seq 31 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  6 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Applying change for index 31
+2022/05/04 18:13:58 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  6 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Setting globalSeq to 31
+2022/05/04 18:13:58 I am 0 from gid 101, Calling tick(). Got latest config to be {7 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}
+2022/05/04 18:13:58 I am 0 from gid 101, Starting to try for agreement on op {Reconfiguration 7   false  6 {7 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}. Global Seq is 31 at time 2022-05-04 18:13:58.933453 -0400 EDT m=+2.068300227
+2022/05/04 18:13:58 I am 0 from gid 101 is proposing seq 32 with op {Reconfiguration 7   false  6 {7 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:58 I am 0 from gid 101 propose seq 32 OK with op {Reconfiguration 7   false  6 {7 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:58 I am 0 from gid 101, Applying change for index 32
+2022/05/04 18:13:58 I am 0 from gid 101, Trying to apply change for {Reconfiguration 7   false  6 {7 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:58 I am 0 from gid 101, reconfiguring for config number: 7
+2022/05/04 18:13:58 I am 0 from gid 101, Moved data over to 7. cwp is 6, Data is map[0:0xc000283c10 1:0xc000283c20 2:0xc000283c30 3:0xc000283c40 4:0xc000283c50 5:0xc000283c60 6:0xc000283c70 7:0xc000283c80 8:0xc000283c90 9:0xc000283ca0]
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:58 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:58 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-8
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:13:59 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:13:59 I am 0 from gid 101, and I received map[] for shard 4
+2022/05/04 18:13:59 I am 0 from gid 101, Setting globalSeq to 32
+2022/05/04 18:13:59 I am 0 from gid 101. I tried to reconfigure on config num 7, err is OK
+2022/05/04 18:13:59 I am 0 from gid 101, Set current config num to 7
+2022/05/04 18:13:59 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  7 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 32 at time 2022-05-04 18:13:59.041056 -0400 EDT m=+2.175905506
+2022/05/04 18:13:59 I am 0 from gid 101 is proposing seq 33 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  7 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101 propose seq 33 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  7 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Applying change for index 33
+2022/05/04 18:13:59 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  7 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Setting globalSeq to 33
+2022/05/04 18:13:59 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  7 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 33 at time 2022-05-04 18:13:59.174046 -0400 EDT m=+2.308899911
+2022/05/04 18:13:59 I am 0 from gid 101 is proposing seq 34 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  7 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101 propose seq 34 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  7 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Applying change for index 34
+2022/05/04 18:13:59 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  7 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Setting globalSeq to 34
+2022/05/04 18:13:59 I am 0 from gid 101, Calling tick(). Got latest config to be {8 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}
+2022/05/04 18:13:59 I am 0 from gid 101, Starting to try for agreement on op {Reconfiguration 8   false  7 {8 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}. Global Seq is 34 at time 2022-05-04 18:13:59.332369 -0400 EDT m=+2.467226197
+2022/05/04 18:13:59 I am 0 from gid 101 is proposing seq 35 with op {Reconfiguration 8   false  7 {8 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:59 I am 0 from gid 101 propose seq 35 OK with op {Reconfiguration 8   false  7 {8 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Applying change for index 35
+2022/05/04 18:13:59 I am 0 from gid 101, Trying to apply change for {Reconfiguration 8   false  7 {8 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:59 I am 0 from gid 101, reconfiguring for config number: 8
+2022/05/04 18:13:59 I am 0 from gid 101, Moved data over to 8. cwp is 7, Data is map[0:0xc000444a20 1:0xc000444a30 2:0xc000444a40 3:0xc000444a50 4:0xc000444a60 5:0xc000444a70 6:0xc000444a80 7:0xc000444a90 8:0xc000444aa0 9:0xc000444ab0]
+2022/05/04 18:13:59 I am 0 from gid 101, Setting globalSeq to 35
+2022/05/04 18:13:59 I am 0 from gid 101. I tried to reconfigure on config num 8, err is OK
+2022/05/04 18:13:59 I am 0 from gid 101, Set current config num to 8
+2022/05/04 18:13:59 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  8 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 35 at time 2022-05-04 18:13:59.342689 -0400 EDT m=+2.477546983
+2022/05/04 18:13:59 I am 0 from gid 101 is proposing seq 36 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  8 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101 propose seq 36 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  8 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Applying change for index 36
+2022/05/04 18:13:59 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  8 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Setting globalSeq to 36
+2022/05/04 18:13:59 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  8 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 36 at time 2022-05-04 18:13:59.475788 -0400 EDT m=+2.610649404
+2022/05/04 18:13:59 I am 0 from gid 101 is proposing seq 37 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  8 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101 propose seq 37 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  8 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Applying change for index 37
+2022/05/04 18:13:59 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  8 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Setting globalSeq to 37
+2022/05/04 18:13:59 I am 0 from gid 101, Calling tick(). Got latest config to be {9 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}
+2022/05/04 18:13:59 I am 0 from gid 101, Starting to try for agreement on op {Reconfiguration 9   false  8 {9 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}. Global Seq is 37 at time 2022-05-04 18:13:59.616163 -0400 EDT m=+2.751028165
+2022/05/04 18:13:59 I am 0 from gid 101 is proposing seq 38 with op {Reconfiguration 9   false  8 {9 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:59 I am 0 from gid 101 propose seq 38 OK with op {Reconfiguration 9   false  8 {9 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Applying change for index 38
+2022/05/04 18:13:59 I am 0 from gid 101, Trying to apply change for {Reconfiguration 9   false  8 {9 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:59 I am 0 from gid 101, reconfiguring for config number: 9
+2022/05/04 18:13:59 I am 0 from gid 101, Moved data over to 9. cwp is 8, Data is map[0:0xc0000a0b70 1:0xc0000a0b80 2:0xc0000a0b90 3:0xc0000a0ba0 4:0xc0000a0bb0 5:0xc0000a0bc0 6:0xc0000a0bd0 7:0xc0000a0be0 8:0xc0000a0bf0 9:0xc0000a0c00]
+2022/05/04 18:13:59 I am 0 from gid 101, Setting globalSeq to 38
+2022/05/04 18:13:59 I am 0 from gid 101. I tried to reconfigure on config num 9, err is OK
+2022/05/04 18:13:59 I am 0 from gid 101, Set current config num to 9
+2022/05/04 18:13:59 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  9 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 38 at time 2022-05-04 18:13:59.626496 -0400 EDT m=+2.761361367
+2022/05/04 18:13:59 I am 0 from gid 101 is proposing seq 39 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  9 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101 propose seq 39 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  9 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Applying change for index 39
+2022/05/04 18:13:59 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  9 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Setting globalSeq to 39
+2022/05/04 18:13:59 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  9 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 39 at time 2022-05-04 18:13:59.759873 -0400 EDT m=+2.894741635
+2022/05/04 18:13:59 I am 0 from gid 101 is proposing seq 40 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  9 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101 propose seq 40 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  9 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Applying change for index 40
+2022/05/04 18:13:59 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  9 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Setting globalSeq to 40
+2022/05/04 18:13:59 I am 0 from gid 101, Calling tick(). Got latest config to be {10 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}
+2022/05/04 18:13:59 I am 0 from gid 101, Starting to try for agreement on op {Reconfiguration 10   false  9 {10 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}. Global Seq is 40 at time 2022-05-04 18:13:59.897977 -0400 EDT m=+3.032849664
+2022/05/04 18:13:59 I am 0 from gid 101 is proposing seq 41 with op {Reconfiguration 10   false  9 {10 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:59 I am 0 from gid 101 propose seq 41 OK with op {Reconfiguration 10   false  9 {10 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Applying change for index 41
+2022/05/04 18:13:59 I am 0 from gid 101, Trying to apply change for {Reconfiguration 10   false  9 {10 [100 100 100 100 101 101 100 100 102 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:13:59 I am 0 from gid 101, reconfiguring for config number: 10
+2022/05/04 18:13:59 I am 0 from gid 101, Moved data over to 10. cwp is 9, Data is map[0:0xc0005821a0 1:0xc0005821b0 2:0xc0005821c0 3:0xc0005821d0 4:0xc0005821e0 5:0xc0005821f0 6:0xc000582200 7:0xc000582210 8:0xc000582220 9:0xc000582230]
+2022/05/04 18:13:59 I am 0 from gid 101, Setting globalSeq to 41
+2022/05/04 18:13:59 I am 0 from gid 101. I tried to reconfigure on config num 10, err is OK
+2022/05/04 18:13:59 I am 0 from gid 101, Set current config num to 10
+2022/05/04 18:13:59 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  10 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 41 at time 2022-05-04 18:13:59.908742 -0400 EDT m=+3.043615123
+2022/05/04 18:13:59 I am 0 from gid 101 is proposing seq 42 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  10 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101 propose seq 42 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  10 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Applying change for index 42
+2022/05/04 18:13:59 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  10 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:13:59 I am 0 from gid 101, Setting globalSeq to 42
+2022/05/04 18:14:00 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  10 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 42 at time 2022-05-04 18:14:00.041629 -0400 EDT m=+3.176504674
+2022/05/04 18:14:00 I am 0 from gid 101 is proposing seq 43 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  10 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101 propose seq 43 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  10 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, Applying change for index 43
+2022/05/04 18:14:00 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  10 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, Setting globalSeq to 43
+2022/05/04 18:14:00 I am 0 from gid 101, Calling tick(). Got latest config to be {11 [100 100 100 100 101 101 100 100 101 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}
+2022/05/04 18:14:00 I am 0 from gid 101, Starting to try for agreement on op {Reconfiguration 11   false  10 {11 [100 100 100 100 101 101 100 100 101 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}. Global Seq is 43 at time 2022-05-04 18:14:00.17947 -0400 EDT m=+3.314349954
+2022/05/04 18:14:00 I am 0 from gid 101 is proposing seq 44 with op {Reconfiguration 11   false  10 {11 [100 100 100 100 101 101 100 100 101 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:14:00 I am 0 from gid 101 propose seq 44 OK with op {Reconfiguration 11   false  10 {11 [100 100 100 100 101 101 100 100 101 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:14:00 I am 0 from gid 101, Applying change for index 44
+2022/05/04 18:14:00 I am 0 from gid 101, Trying to apply change for {Reconfiguration 11   false  10 {11 [100 100 100 100 101 101 100 100 101 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:14:00 I am 0 from gid 101, reconfiguring for config number: 11
+2022/05/04 18:14:00 I am 0 from gid 101, Moved data over to 11. cwp is 10, Data is map[0:0xc0003449d0 1:0xc0003449e0 2:0xc0003449f0 3:0xc000344a00 4:0xc000344a10 5:0xc000344a20 6:0xc000344a30 7:0xc000344a40 8:0xc000344a50 9:0xc000344a60]
+2022/05/04 18:14:00 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-6
+2022/05/04 18:14:00 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:14:00 I am 0 from gid 101, making call to /var/tmp/824-501/skv-42340-concfalses-7
+2022/05/04 18:14:00 I am 0 from gid 101, and call completed and ok is true
+2022/05/04 18:14:00 I am 0 from gid 101, and I received map[] for shard 8
+2022/05/04 18:14:00 I am 0 from gid 101, Setting globalSeq to 44
+2022/05/04 18:14:00 I am 0 from gid 101. I tried to reconfigure on config num 11, err is OK
+2022/05/04 18:14:00 I am 0 from gid 101, Set current config num to 11
+2022/05/04 18:14:00 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 44 at time 2022-05-04 18:14:00.190075 -0400 EDT m=+3.324955065
+2022/05/04 18:14:00 I am 0 from gid 101 is proposing seq 45 with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101 propose seq 45 OK with op {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, Applying change for index 45
+2022/05/04 18:14:00 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, apply op: {Put 2022-05-04 18:13:57.00147 -0400 EDT m=+0.136267009-3312163611455851558-10 0 4324745483838182873 true  11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, putKey: 0, old: , new: 721236649, shard: 8
+2022/05/04 18:14:00 I am 0 from gid 101, Setting globalSeq to 45
+2022/05/04 18:14:00 I am 0 from gid 101, Starting to try for agreement on op {Get 2022-05-04 18:14:00.21061 -0400 EDT m=+3.345490906-2855933811468500610-53   false 0 11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 45 at time 2022-05-04 18:14:00.210887 -0400 EDT m=+3.345767234
+2022/05/04 18:14:00 I am 0 from gid 101 is proposing seq 46 with op {Get 2022-05-04 18:14:00.21061 -0400 EDT m=+3.345490906-2855933811468500610-53   false 0 11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101 propose seq 46 OK with op {Get 2022-05-04 18:14:00.21061 -0400 EDT m=+3.345490906-2855933811468500610-53   false 0 11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, Applying change for index 46
+2022/05/04 18:14:00 I am 0 from gid 101, Trying to apply change for {Get 2022-05-04 18:14:00.21061 -0400 EDT m=+3.345490906-2855933811468500610-53   false 0 11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, apply op: {Get 2022-05-04 18:14:00.21061 -0400 EDT m=+3.345490906-2855933811468500610-53   false 0 11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, getKey: 0, value: 721236649, shard: 8
+2022/05/04 18:14:00 I am 0 from gid 101, Setting globalSeq to 46
+2022/05/04 18:14:00 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:14:00.262709 -0400 EDT m=+3.397591364-4242839959647513446-54 0 70846625002411951 true  11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 46 at time 2022-05-04 18:14:00.263158 -0400 EDT m=+3.398040297
+2022/05/04 18:14:00 I am 0 from gid 101 is proposing seq 47 with op {Put 2022-05-04 18:14:00.262709 -0400 EDT m=+3.397591364-4242839959647513446-54 0 70846625002411951 true  11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101 propose seq 47 OK with op {Put 2022-05-04 18:14:00.262709 -0400 EDT m=+3.397591364-4242839959647513446-54 0 70846625002411951 true  11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, Applying change for index 47
+2022/05/04 18:14:00 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:14:00.262709 -0400 EDT m=+3.397591364-4242839959647513446-54 0 70846625002411951 true  11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, apply op: {Put 2022-05-04 18:14:00.262709 -0400 EDT m=+3.397591364-4242839959647513446-54 0 70846625002411951 true  11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, putKey: 0, old: 721236649, new: 3188354514, shard: 8
+2022/05/04 18:14:00 I am 0 from gid 101, Setting globalSeq to 47
+2022/05/04 18:14:00 I am 0 from gid 101, Starting to try for agreement on op {Get 2022-05-04 18:14:00.283981 -0400 EDT m=+3.418863934-2224404021304456566-55   false 0 11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 47 at time 2022-05-04 18:14:00.284342 -0400 EDT m=+3.419224282
+2022/05/04 18:14:00 I am 0 from gid 101 is proposing seq 48 with op {Get 2022-05-04 18:14:00.283981 -0400 EDT m=+3.418863934-2224404021304456566-55   false 0 11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101 propose seq 48 OK with op {Get 2022-05-04 18:14:00.283981 -0400 EDT m=+3.418863934-2224404021304456566-55   false 0 11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, Applying change for index 48
+2022/05/04 18:14:00 I am 0 from gid 101, Trying to apply change for {Get 2022-05-04 18:14:00.283981 -0400 EDT m=+3.418863934-2224404021304456566-55   false 0 11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, apply op: {Get 2022-05-04 18:14:00.283981 -0400 EDT m=+3.418863934-2224404021304456566-55   false 0 11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, getKey: 0, value: 3188354514, shard: 8
+2022/05/04 18:14:00 I am 0 from gid 101, Setting globalSeq to 48
+2022/05/04 18:14:00 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:14:00.326876 -0400 EDT m=+3.461759388-1131279037134102866-56 0 7296843298592096403 true  11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 48 at time 2022-05-04 18:14:00.327149 -0400 EDT m=+3.462032100
+2022/05/04 18:14:00 I am 0 from gid 101 is proposing seq 49 with op {Put 2022-05-04 18:14:00.326876 -0400 EDT m=+3.461759388-1131279037134102866-56 0 7296843298592096403 true  11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101 propose seq 49 OK with op {Put 2022-05-04 18:14:00.326876 -0400 EDT m=+3.461759388-1131279037134102866-56 0 7296843298592096403 true  11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, Applying change for index 49
+2022/05/04 18:14:00 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:14:00.326876 -0400 EDT m=+3.461759388-1131279037134102866-56 0 7296843298592096403 true  11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, apply op: {Put 2022-05-04 18:14:00.326876 -0400 EDT m=+3.461759388-1131279037134102866-56 0 7296843298592096403 true  11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, putKey: 0, old: 3188354514, new: 183089303, shard: 8
+2022/05/04 18:14:00 I am 0 from gid 101, Setting globalSeq to 49
+2022/05/04 18:14:00 I am 0 from gid 101, Starting to try for agreement on op {Get 2022-05-04 18:14:00.348572 -0400 EDT m=+3.483456379-2385556422289036629-57   false 0 11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 49 at time 2022-05-04 18:14:00.348948 -0400 EDT m=+3.483832520
+2022/05/04 18:14:00 I am 0 from gid 101 is proposing seq 50 with op {Get 2022-05-04 18:14:00.348572 -0400 EDT m=+3.483456379-2385556422289036629-57   false 0 11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101 propose seq 50 OK with op {Get 2022-05-04 18:14:00.348572 -0400 EDT m=+3.483456379-2385556422289036629-57   false 0 11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, Applying change for index 50
+2022/05/04 18:14:00 I am 0 from gid 101, Trying to apply change for {Get 2022-05-04 18:14:00.348572 -0400 EDT m=+3.483456379-2385556422289036629-57   false 0 11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, apply op: {Get 2022-05-04 18:14:00.348572 -0400 EDT m=+3.483456379-2385556422289036629-57   false 0 11 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, getKey: 0, value: 183089303, shard: 8
+2022/05/04 18:14:00 I am 0 from gid 101, Setting globalSeq to 50
+2022/05/04 18:14:00 I am 0 from gid 101, Calling tick(). Got latest config to be {12 [100 100 100 100 101 101 100 100 101 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}
+2022/05/04 18:14:00 I am 0 from gid 101, Starting to try for agreement on op {Reconfiguration 12   false  11 {12 [100 100 100 100 101 101 100 100 101 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}. Global Seq is 50 at time 2022-05-04 18:14:00.461325 -0400 EDT m=+3.596211555
+2022/05/04 18:14:00 I am 0 from gid 101 is proposing seq 51 with op {Reconfiguration 12   false  11 {12 [100 100 100 100 101 101 100 100 101 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:14:00 I am 0 from gid 101 propose seq 51 OK with op {Reconfiguration 12   false  11 {12 [100 100 100 100 101 101 100 100 101 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:14:00 I am 0 from gid 101, Applying change for index 51
+2022/05/04 18:14:00 I am 0 from gid 101, Trying to apply change for {Reconfiguration 12   false  11 {12 [100 100 100 100 101 101 100 100 101 102] map[100:[/var/tmp/824-501/skv-42340-concfalses-0 /var/tmp/824-501/skv-42340-concfalses-1 /var/tmp/824-501/skv-42340-concfalses-2] 101:[/var/tmp/824-501/skv-42340-concfalses-3 /var/tmp/824-501/skv-42340-concfalses-4 /var/tmp/824-501/skv-42340-concfalses-5] 102:[/var/tmp/824-501/skv-42340-concfalses-6 /var/tmp/824-501/skv-42340-concfalses-7 /var/tmp/824-501/skv-42340-concfalses-8]]}}
+2022/05/04 18:14:00 I am 0 from gid 101, reconfiguring for config number: 12
+2022/05/04 18:14:00 I am 0 from gid 101, Moved data over to 12. cwp is 11, Data is map[0:0xc0000a1c90 1:0xc0000a1ca0 2:0xc0000a1cb0 3:0xc0000a1cc0 4:0xc0000a1cd0 5:0xc0000a1ce0 6:0xc0000a1cf0 7:0xc0000a1d00 8:0xc0000a1d10 9:0xc0000a1d20]
+2022/05/04 18:14:00 I am 0 from gid 101, Setting globalSeq to 51
+2022/05/04 18:14:00 I am 0 from gid 101. I tried to reconfigure on config num 12, err is OK
+2022/05/04 18:14:00 I am 0 from gid 101, Set current config num to 12
+2022/05/04 18:14:00 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 51 at time 2022-05-04 18:14:00.492019 -0400 EDT m=+3.626907228
+2022/05/04 18:14:00 I am 0 from gid 101 is proposing seq 52 with op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101 propose seq 52 OK with op {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, Applying change for index 52
+2022/05/04 18:14:00 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, apply op: {Put 2022-05-04 18:13:57.001442 -0400 EDT m=+0.136238950-916132734239074706-5 6 7504504064263669287 true  12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, putKey: 6, old: , new: 1702707653, shard: 4
+2022/05/04 18:14:00 I am 0 from gid 101, Setting globalSeq to 52
+2022/05/04 18:14:00 I am 0 from gid 101, Starting to try for agreement on op {Get 2022-05-04 18:14:00.512558 -0400 EDT m=+3.647446090-1961043126377179196-58   false 6 12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 52 at time 2022-05-04 18:14:00.512744 -0400 EDT m=+3.647632483
+2022/05/04 18:14:00 I am 0 from gid 101 is proposing seq 53 with op {Get 2022-05-04 18:14:00.512558 -0400 EDT m=+3.647446090-1961043126377179196-58   false 6 12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101 propose seq 53 OK with op {Get 2022-05-04 18:14:00.512558 -0400 EDT m=+3.647446090-1961043126377179196-58   false 6 12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, Applying change for index 53
+2022/05/04 18:14:00 I am 0 from gid 101, Trying to apply change for {Get 2022-05-04 18:14:00.512558 -0400 EDT m=+3.647446090-1961043126377179196-58   false 6 12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, apply op: {Get 2022-05-04 18:14:00.512558 -0400 EDT m=+3.647446090-1961043126377179196-58   false 6 12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, getKey: 6, value: 1702707653, shard: 4
+2022/05/04 18:14:00 I am 0 from gid 101, Setting globalSeq to 53
+2022/05/04 18:14:00 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:14:00.548764 -0400 EDT m=+3.683652953-3331525081298222649-59 6 2802080069235680467 true  12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 53 at time 2022-05-04 18:14:00.548994 -0400 EDT m=+3.683883013
+2022/05/04 18:14:00 I am 0 from gid 101 is proposing seq 54 with op {Put 2022-05-04 18:14:00.548764 -0400 EDT m=+3.683652953-3331525081298222649-59 6 2802080069235680467 true  12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101 propose seq 54 OK with op {Put 2022-05-04 18:14:00.548764 -0400 EDT m=+3.683652953-3331525081298222649-59 6 2802080069235680467 true  12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, Applying change for index 54
+2022/05/04 18:14:00 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:14:00.548764 -0400 EDT m=+3.683652953-3331525081298222649-59 6 2802080069235680467 true  12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, apply op: {Put 2022-05-04 18:14:00.548764 -0400 EDT m=+3.683652953-3331525081298222649-59 6 2802080069235680467 true  12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, putKey: 6, old: 1702707653, new: 28493271, shard: 4
+2022/05/04 18:14:00 I am 0 from gid 101, Setting globalSeq to 54
+2022/05/04 18:14:00 I am 0 from gid 101, Starting to try for agreement on op {Get 2022-05-04 18:14:00.569446 -0400 EDT m=+3.704335682-3893252611811466149-60   false 6 12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 54 at time 2022-05-04 18:14:00.569651 -0400 EDT m=+3.704540345
+2022/05/04 18:14:00 I am 0 from gid 101 is proposing seq 55 with op {Get 2022-05-04 18:14:00.569446 -0400 EDT m=+3.704335682-3893252611811466149-60   false 6 12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101 propose seq 55 OK with op {Get 2022-05-04 18:14:00.569446 -0400 EDT m=+3.704335682-3893252611811466149-60   false 6 12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, Applying change for index 55
+2022/05/04 18:14:00 I am 0 from gid 101, Trying to apply change for {Get 2022-05-04 18:14:00.569446 -0400 EDT m=+3.704335682-3893252611811466149-60   false 6 12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, apply op: {Get 2022-05-04 18:14:00.569446 -0400 EDT m=+3.704335682-3893252611811466149-60   false 6 12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, getKey: 6, value: 28493271, shard: 4
+2022/05/04 18:14:00 I am 0 from gid 101, Setting globalSeq to 55
+2022/05/04 18:14:00 I am 0 from gid 101, Starting to try for agreement on op {Put 2022-05-04 18:14:00.625257 -0400 EDT m=+3.760148212-1555175545100327157-61 6 1236708117295664816 true  12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 55 at time 2022-05-04 18:14:00.625486 -0400 EDT m=+3.760377431
+2022/05/04 18:14:00 I am 0 from gid 101 is proposing seq 56 with op {Put 2022-05-04 18:14:00.625257 -0400 EDT m=+3.760148212-1555175545100327157-61 6 1236708117295664816 true  12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101 propose seq 56 OK with op {Put 2022-05-04 18:14:00.625257 -0400 EDT m=+3.760148212-1555175545100327157-61 6 1236708117295664816 true  12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, Applying change for index 56
+2022/05/04 18:14:00 I am 0 from gid 101, Trying to apply change for {Put 2022-05-04 18:14:00.625257 -0400 EDT m=+3.760148212-1555175545100327157-61 6 1236708117295664816 true  12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, apply op: {Put 2022-05-04 18:14:00.625257 -0400 EDT m=+3.760148212-1555175545100327157-61 6 1236708117295664816 true  12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, putKey: 6, old: 28493271, new: 2507020890, shard: 4
+2022/05/04 18:14:00 I am 0 from gid 101, Setting globalSeq to 56
+2022/05/04 18:14:00 I am 0 from gid 101, Starting to try for agreement on op {Get 2022-05-04 18:14:00.646246 -0400 EDT m=+3.781137950-3126331509177886597-62   false 6 12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 56 at time 2022-05-04 18:14:00.646505 -0400 EDT m=+3.781397074
+2022/05/04 18:14:00 I am 0 from gid 101 is proposing seq 57 with op {Get 2022-05-04 18:14:00.646246 -0400 EDT m=+3.781137950-3126331509177886597-62   false 6 12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101 propose seq 57 OK with op {Get 2022-05-04 18:14:00.646246 -0400 EDT m=+3.781137950-3126331509177886597-62   false 6 12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, Applying change for index 57
+2022/05/04 18:14:00 I am 0 from gid 101, Trying to apply change for {Get 2022-05-04 18:14:00.646246 -0400 EDT m=+3.781137950-3126331509177886597-62   false 6 12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:14:00 I am 0 from gid 101, apply op: {Get 2022-05-04 18:14:00.646246 -0400 EDT m=+3.781137950-3126331509177886597-62   false 6 12 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, getKey: 6, value: 2507020890, shard: 4
+2022/05/04 18:14:00 I am 0 from gid 101, Setting globalSeq to 57

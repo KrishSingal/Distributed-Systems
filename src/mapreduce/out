@@ -1,0 +1,417 @@
+Test: Basic mapreduce ...
+2022/02/01 16:11:30 rpc.Register: method "CleanupFiles" has 1 input parameters; needs exactly three
+2022/02/01 16:11:30 rpc.Register: method "CleanupRegistration" has 1 input parameters; needs exactly three
+2022/02/01 16:11:30 rpc.Register: method "KillWorkers" has 1 input parameters; needs exactly three
+2022/02/01 16:11:30 rpc.Register: method "Merge" has 1 input parameters; needs exactly three
+2022/02/01 16:11:30 rpc.Register: method "Run" has 1 input parameters; needs exactly three
+2022/02/01 16:11:30 rpc.Register: method "RunMaster" has 1 input parameters; needs exactly three
+2022/02/01 16:11:30 rpc.Register: method "Split" has 2 input parameters; needs exactly three
+2022/02/01 16:11:30 rpc.Register: method "StartRegistrationServer" has 1 input parameters; needs exactly three
+Run mapreduce job /var/tmp/824-501/mr26081-master 824-mrinput.txt
+Split 824-mrinput.txt
+2022/02/01 16:11:30 nMap 100
+2022/02/01 16:11:30 nReduce 50
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 1
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 2
+Dojob /var/tmp/824-501/mr26081-worker0 job 2 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-2 5890
+Dojob /var/tmp/824-501/mr26081-worker1 job 2 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-2 5890
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 3
+Dojob /var/tmp/824-501/mr26081-worker1 job 3 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-3 5890
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 4
+Dojob /var/tmp/824-501/mr26081-worker0 job 4 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-4 5890
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 5
+Dojob /var/tmp/824-501/mr26081-worker0 job 5 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-5 5885
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 6
+Dojob /var/tmp/824-501/mr26081-worker1 job 6 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-6 5890
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 7
+Dojob /var/tmp/824-501/mr26081-worker0 job 7 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-7 5890
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 8
+Dojob /var/tmp/824-501/mr26081-worker1 job 8 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-8 5891
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 9
+Dojob /var/tmp/824-501/mr26081-worker0 job 9 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-9 5886
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 10
+Dojob /var/tmp/824-501/mr26081-worker1 job 10 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-10 5892
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 11
+Dojob /var/tmp/824-501/mr26081-worker0 job 11 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-11 5886
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 12
+Dojob /var/tmp/824-501/mr26081-worker1 job 12 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-12 5892
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 13
+Dojob /var/tmp/824-501/mr26081-worker1 job 13 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-13 5886
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 14
+Dojob /var/tmp/824-501/mr26081-worker0 job 14 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-14 5892
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 15
+Dojob /var/tmp/824-501/mr26081-worker0 job 15 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-15 5886
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 16
+Dojob /var/tmp/824-501/mr26081-worker1 job 16 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-16 5892
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 17
+Dojob /var/tmp/824-501/mr26081-worker1 job 17 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-17 5886
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 18
+Dojob /var/tmp/824-501/mr26081-worker0 job 18 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-18 5892
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 19
+Dojob /var/tmp/824-501/mr26081-worker1 job 19 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-19 5886
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 20
+Dojob /var/tmp/824-501/mr26081-worker0 job 20 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-20 5892
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 21
+Dojob /var/tmp/824-501/mr26081-worker1 job 21 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-21 5886
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 22
+Dojob /var/tmp/824-501/mr26081-worker0 job 22 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-22 5892
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 23
+Dojob /var/tmp/824-501/mr26081-worker1 job 23 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-23 5886
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 24
+Dojob /var/tmp/824-501/mr26081-worker0 job 24 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-24 5892
+2022/02/01 16:11:30 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:30 mapJobIndex 25
+Dojob /var/tmp/824-501/mr26081-worker1 job 25 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-25 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 26
+Dojob /var/tmp/824-501/mr26081-worker0 job 26 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-26 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 27
+Dojob /var/tmp/824-501/mr26081-worker1 job 27 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-27 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 28
+Dojob /var/tmp/824-501/mr26081-worker0 job 28 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-28 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 29
+Dojob /var/tmp/824-501/mr26081-worker1 job 29 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-29 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 30
+Dojob /var/tmp/824-501/mr26081-worker0 job 30 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-30 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 31
+Dojob /var/tmp/824-501/mr26081-worker1 job 31 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-31 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 32
+Dojob /var/tmp/824-501/mr26081-worker0 job 32 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-32 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 33
+Dojob /var/tmp/824-501/mr26081-worker1 job 33 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-33 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 34
+Dojob /var/tmp/824-501/mr26081-worker0 job 34 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-34 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 35
+Dojob /var/tmp/824-501/mr26081-worker1 job 35 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-35 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 36
+Dojob /var/tmp/824-501/mr26081-worker0 job 36 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-36 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 37
+Dojob /var/tmp/824-501/mr26081-worker1 job 37 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-37 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 38
+Dojob /var/tmp/824-501/mr26081-worker0 job 38 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-38 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 39
+Dojob /var/tmp/824-501/mr26081-worker1 job 39 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-39 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 40
+Dojob /var/tmp/824-501/mr26081-worker0 job 40 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-40 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 41
+Dojob /var/tmp/824-501/mr26081-worker1 job 41 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-41 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 42
+Dojob /var/tmp/824-501/mr26081-worker0 job 42 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-42 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 43
+Dojob /var/tmp/824-501/mr26081-worker1 job 43 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-43 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 44
+Dojob /var/tmp/824-501/mr26081-worker0 job 44 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-44 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 45
+Dojob /var/tmp/824-501/mr26081-worker1 job 45 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-45 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 46
+Dojob /var/tmp/824-501/mr26081-worker0 job 46 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-46 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 47
+Dojob /var/tmp/824-501/mr26081-worker1 job 47 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-47 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 48
+Dojob /var/tmp/824-501/mr26081-worker0 job 48 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-48 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 49
+Dojob /var/tmp/824-501/mr26081-worker1 job 49 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-49 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 50
+Dojob /var/tmp/824-501/mr26081-worker0 job 50 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-50 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 51
+Dojob /var/tmp/824-501/mr26081-worker1 job 51 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-51 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 52
+Dojob /var/tmp/824-501/mr26081-worker0 job 52 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-52 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 53
+Dojob /var/tmp/824-501/mr26081-worker1 job 53 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-53 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 54
+Dojob /var/tmp/824-501/mr26081-worker0 job 54 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-54 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 55
+Dojob /var/tmp/824-501/mr26081-worker1 job 55 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-55 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 56
+Dojob /var/tmp/824-501/mr26081-worker0 job 56 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-56 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 57
+Dojob /var/tmp/824-501/mr26081-worker1 job 57 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-57 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 58
+Dojob /var/tmp/824-501/mr26081-worker0 job 58 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-58 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 59
+Dojob /var/tmp/824-501/mr26081-worker1 job 59 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-59 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 60
+Dojob /var/tmp/824-501/mr26081-worker0 job 60 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-60 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 61
+Dojob /var/tmp/824-501/mr26081-worker1 job 61 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-61 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 62
+Dojob /var/tmp/824-501/mr26081-worker0 job 62 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-62 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 63
+Dojob /var/tmp/824-501/mr26081-worker1 job 63 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-63 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 64
+Dojob /var/tmp/824-501/mr26081-worker0 job 64 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-64 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 65
+Dojob /var/tmp/824-501/mr26081-worker1 job 65 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-65 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 66
+Dojob /var/tmp/824-501/mr26081-worker0 job 66 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-66 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 67
+Dojob /var/tmp/824-501/mr26081-worker1 job 67 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-67 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 68
+Dojob /var/tmp/824-501/mr26081-worker0 job 68 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-68 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 69
+Dojob /var/tmp/824-501/mr26081-worker1 job 69 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-69 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 70
+Dojob /var/tmp/824-501/mr26081-worker0 job 70 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-70 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 71
+Dojob /var/tmp/824-501/mr26081-worker1 job 71 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-71 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 72
+Dojob /var/tmp/824-501/mr26081-worker0 job 72 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-72 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 73
+Dojob /var/tmp/824-501/mr26081-worker1 job 73 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-73 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 74
+Dojob /var/tmp/824-501/mr26081-worker0 job 74 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-74 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 75
+Dojob /var/tmp/824-501/mr26081-worker1 job 75 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-75 5886
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 76
+Dojob /var/tmp/824-501/mr26081-worker0 job 76 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-76 5892
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 77
+2022/02/01 16:11:31 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:31 mapJobIndex 78
+Dojob /var/tmp/824-501/mr26081-worker0 job 77 file 824-mrinput.txt operation Map N 50
+Dojob /var/tmp/824-501/mr26081-worker1 job 78 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-77 5886
+DoMap: read split mrtmp.824-mrinput.txt-78 5892
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 79
+Dojob /var/tmp/824-501/mr26081-worker0 job 79 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-79 5886
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 80
+Dojob /var/tmp/824-501/mr26081-worker1 job 80 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-80 5892
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 81
+Dojob /var/tmp/824-501/mr26081-worker0 job 81 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-81 5886
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 82
+Dojob /var/tmp/824-501/mr26081-worker1 job 82 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-82 5892
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 83
+Dojob /var/tmp/824-501/mr26081-worker0 job 83 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-83 5886
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 84
+Dojob /var/tmp/824-501/mr26081-worker1 job 84 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-84 5892
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 85
+Dojob /var/tmp/824-501/mr26081-worker0 job 85 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-85 5886
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 86
+Dojob /var/tmp/824-501/mr26081-worker1 job 86 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-86 5892
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 87
+Dojob /var/tmp/824-501/mr26081-worker0 job 87 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-87 5886
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 88
+Dojob /var/tmp/824-501/mr26081-worker1 job 88 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-88 5892
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 89
+Dojob /var/tmp/824-501/mr26081-worker0 job 89 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-89 5886
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 90
+Dojob /var/tmp/824-501/mr26081-worker1 job 90 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-90 5892
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 91
+Dojob /var/tmp/824-501/mr26081-worker0 job 91 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-91 5886
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 92
+Dojob /var/tmp/824-501/mr26081-worker1 job 92 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-92 5892
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 93
+Dojob /var/tmp/824-501/mr26081-worker0 job 93 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-93 5886
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 94
+Dojob /var/tmp/824-501/mr26081-worker1 job 94 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-94 5892
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 95
+Dojob /var/tmp/824-501/mr26081-worker0 job 95 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-95 5886
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 96
+Dojob /var/tmp/824-501/mr26081-worker1 job 96 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-96 5892
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 97
+Dojob /var/tmp/824-501/mr26081-worker0 job 97 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-97 5886
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 98
+Dojob /var/tmp/824-501/mr26081-worker1 job 98 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-98 5892
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: true
+2022/02/01 16:11:32 mapJobIndex 99
+Dojob /var/tmp/824-501/mr26081-worker0 job 99 file 824-mrinput.txt operation Map N 50
+DoMap: read split mrtmp.824-mrinput.txt-99 5874
+2022/02/01 16:11:32 mapJobIndex < mr.nMap: false
+2022/02/01 16:11:32 mapJobIndex 100
+2022/02/01 16:11:32 hi
+2022/02/01 16:11:32 inside
+Dojob /var/tmp/824-501/mr26081-worker1 job 100 file 824-mrinput.txt operation Map N 50
+2022/02/01 16:11:32 DoMap: open mrtmp.824-mrinput.txt-100: no such file or directory
+exit status 1
+FAIL	mapreduce	2.233s

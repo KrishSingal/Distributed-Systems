@@ -1,0 +1,110 @@
+2022/04/27 23:18:33 rpc.Register: method "Construct" has 2 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Largest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Smallest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2022/04/27 23:18:33 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Construct" has 2 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Largest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Smallest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2022/04/27 23:18:33 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Construct" has 2 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Largest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Smallest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2022/04/27 23:18:33 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2022/04/27 23:18:33 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+Test: Basic leave/join ...
+  ... Passed
+Test: Historical queries ...
+  ... Passed
+Test: Move ...
+  ... Passed
+Test: Concurrent leave/join ...
+  ... Passed
+Test: Min advances after joins ...
+  ... Passed
+Test: Minimal transfers after joins ...
+  ... Passed
+Test: Minimal transfers after leaves ...
+  ... Passed
+2022/04/27 23:18:34 rpc.Register: method "Construct" has 2 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Largest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Smallest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2022/04/27 23:18:34 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Construct" has 2 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Largest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Smallest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2022/04/27 23:18:34 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Construct" has 2 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Largest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Smallest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2022/04/27 23:18:34 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2022/04/27 23:18:34 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+Test: Concurrent leave/join, failure ...
+  ... Passed
+2022/04/27 23:18:35 rpc.Register: method "Construct" has 2 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Largest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Smallest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2022/04/27 23:18:35 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Construct" has 2 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Largest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Smallest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2022/04/27 23:18:35 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Construct" has 2 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Largest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Smallest" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2022/04/27 23:18:35 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2022/04/27 23:18:35 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+Test: Query() returns latest configuration ...
+  ... Passed
+PASS
+ok  	shardmaster	1.980s

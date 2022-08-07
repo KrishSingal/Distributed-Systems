@@ -1,0 +1,1149 @@
+2022/05/04 18:02:48 I am 0 from gid 102, Calling tick(). Got latest config to be {0 [0 0 0 0 0 0 0 0 0 0] map[]}
+2022/05/04 18:02:48 I am 0 from gid 102, Starting to try for agreement on op {Put 2022-05-04 18:02:48.799566 -0400 EDT m=+0.137022143-4594963665844097313-2 10 4751997750760398084 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 0 at time 2022-05-04 18:02:48.945079 -0400 EDT m=+0.282547919
+2022/05/04 18:02:48 I am 0 from gid 102 is proposing seq 1 with op {Put 2022-05-04 18:02:48.799566 -0400 EDT m=+0.137022143-4594963665844097313-2 10 4751997750760398084 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:48 I am 0 from gid 102 is proposing seq 2 with op {Put 2022-05-04 18:02:48.799566 -0400 EDT m=+0.137022143-4594963665844097313-2 10 4751997750760398084 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:48 I am 0 from gid 102 propose seq 2 OK with op {Put 2022-05-04 18:02:48.799566 -0400 EDT m=+0.137022143-4594963665844097313-2 10 4751997750760398084 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:48 I am 0 from gid 102, Applying change for index 1
+2022/05/04 18:02:48 I am 0 from gid 102, Trying to apply change for {Reconfiguration 1   false  0 {1 [100 100 100 100 100 100 100 100 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2]]}}
+2022/05/04 18:02:48 I am 0 from gid 102, reconfiguring for config number: 1
+2022/05/04 18:02:48 I am 0 from gid 102, Moved data over to 1. cwp is 0, Data is map[0:0xc000185a10 1:0xc000185a20 2:0xc000185a30 3:0xc000185a40 4:0xc000185a50 5:0xc000185a60 6:0xc000185a70 7:0xc000185a80 8:0xc000185a90 9:0xc000185aa0]
+2022/05/04 18:02:48 I am 0 from gid 102, Applying change for index 2
+2022/05/04 18:02:48 I am 0 from gid 102, Trying to apply change for {Put 2022-05-04 18:02:48.799566 -0400 EDT m=+0.137022143-4594963665844097313-2 10 4751997750760398084 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:48 I am 0 from gid 102, Setting globalSeq to 2
+2022/05/04 18:02:48 I am 0 from gid 102, Starting to try for agreement on op {Put 2022-05-04 18:02:48.799613 -0400 EDT m=+0.137069187-898123340786537751-8 1 4324745483838182873 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 2 at time 2022-05-04 18:02:48.965893 -0400 EDT m=+0.303363751
+2022/05/04 18:02:48 I am 0 from gid 102 is proposing seq 3 with op {Put 2022-05-04 18:02:48.799613 -0400 EDT m=+0.137069187-898123340786537751-8 1 4324745483838182873 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:48 I am 0 from gid 102 propose seq 3 OK with op {Put 2022-05-04 18:02:48.799613 -0400 EDT m=+0.137069187-898123340786537751-8 1 4324745483838182873 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:48 I am 0 from gid 102, Applying change for index 3
+2022/05/04 18:02:48 I am 0 from gid 102, Trying to apply change for {Put 2022-05-04 18:02:48.799613 -0400 EDT m=+0.137069187-898123340786537751-8 1 4324745483838182873 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:48 I am 0 from gid 102, Setting globalSeq to 3
+2022/05/04 18:02:48 I am 0 from gid 102, Starting to try for agreement on op {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 3 at time 2022-05-04 18:02:48.986222 -0400 EDT m=+0.323694176
+2022/05/04 18:02:48 I am 0 from gid 102 is proposing seq 4 with op {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102 propose seq 4 OK with op {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 4
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  0 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Setting globalSeq to 4
+2022/05/04 18:02:49 I am 0 from gid 102, Calling tick(). Got latest config to be {1 [100 100 100 100 100 100 100 100 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2]]}
+2022/05/04 18:02:49 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 1   false  0 {1 [100 100 100 100 100 100 100 100 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2]]}}. Global Seq is 4 at time 2022-05-04 18:02:49.017272 -0400 EDT m=+0.354746615
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 5 with op {Reconfiguration 1   false  0 {1 [100 100 100 100 100 100 100 100 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2]]}}
+2022/05/04 18:02:49 I am 0 from gid 102 propose seq 5 OK with op {Reconfiguration 1   false  0 {1 [100 100 100 100 100 100 100 100 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2]]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 5
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Reconfiguration 1   false  0 {1 [100 100 100 100 100 100 100 100 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2]]}}
+2022/05/04 18:02:49 I am 0 from gid 102, reconfiguring for config number: 1
+2022/05/04 18:02:49 I am 0 from gid 102, Moved data over to 1. cwp is 0, Data is map[0:0xc000185a10 1:0xc000185a20 2:0xc000185a30 3:0xc000185a40 4:0xc000185a50 5:0xc000185a60 6:0xc000185a70 7:0xc000185a80 8:0xc000185a90 9:0xc000185aa0]
+2022/05/04 18:02:49 I am 0 from gid 102, Setting globalSeq to 5
+2022/05/04 18:02:49 I am 0 from gid 102. I tried to reconfigure on config num 1, err is OK
+2022/05/04 18:02:49 I am 0 from gid 102, Set current config num to 1
+2022/05/04 18:02:49 I am 0 from gid 102, Starting to try for agreement on op {Put 2022-05-04 18:02:48.799602 -0400 EDT m=+0.137058190-3842063965469126185-6 0 3510942875414458836 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 5 at time 2022-05-04 18:02:49.037805 -0400 EDT m=+0.375281123
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 6 with op {Put 2022-05-04 18:02:48.799602 -0400 EDT m=+0.137058190-3842063965469126185-6 0 3510942875414458836 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102 propose seq 6 OK with op {Put 2022-05-04 18:02:48.799602 -0400 EDT m=+0.137058190-3842063965469126185-6 0 3510942875414458836 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 6
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Put 2022-05-04 18:02:48.799602 -0400 EDT m=+0.137058190-3842063965469126185-6 0 3510942875414458836 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Setting globalSeq to 6
+2022/05/04 18:02:49 I am 0 from gid 102, Starting to try for agreement on op {Put 2022-05-04 18:02:48.799566 -0400 EDT m=+0.137022143-4594963665844097313-2 10 4751997750760398084 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 6 at time 2022-05-04 18:02:49.152569 -0400 EDT m=+0.490055484
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 7 with op {Put 2022-05-04 18:02:48.799566 -0400 EDT m=+0.137022143-4594963665844097313-2 10 4751997750760398084 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 8 with op {Put 2022-05-04 18:02:48.799566 -0400 EDT m=+0.137022143-4594963665844097313-2 10 4751997750760398084 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102 propose seq 8 OK with op {Put 2022-05-04 18:02:48.799566 -0400 EDT m=+0.137022143-4594963665844097313-2 10 4751997750760398084 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 7
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Reconfiguration 2   false  1 {2 [100 100 100 100 100 101 101 101 101 101] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5]]}}
+2022/05/04 18:02:49 I am 0 from gid 102, reconfiguring for config number: 2
+2022/05/04 18:02:49 I am 0 from gid 102, Moved data over to 2. cwp is 1, Data is map[0:0xc00034cae0 1:0xc00034caf0 2:0xc00034cb00 3:0xc00034cb10 4:0xc00034cb20 5:0xc00034cb30 6:0xc00034cb40 7:0xc00034cb50 8:0xc00034cb60 9:0xc00034cb70]
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 8
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Put 2022-05-04 18:02:48.799566 -0400 EDT m=+0.137022143-4594963665844097313-2 10 4751997750760398084 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Setting globalSeq to 8
+2022/05/04 18:02:49 I am 0 from gid 102, Starting to try for agreement on op {Put 2022-05-04 18:02:48.799613 -0400 EDT m=+0.137069187-898123340786537751-8 1 4324745483838182873 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 8 at time 2022-05-04 18:02:49.173261 -0400 EDT m=+0.510749184
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 9 with op {Put 2022-05-04 18:02:48.799613 -0400 EDT m=+0.137069187-898123340786537751-8 1 4324745483838182873 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102 propose seq 9 OK with op {Put 2022-05-04 18:02:48.799613 -0400 EDT m=+0.137069187-898123340786537751-8 1 4324745483838182873 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 9
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Put 2022-05-04 18:02:48.799613 -0400 EDT m=+0.137069187-898123340786537751-8 1 4324745483838182873 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Setting globalSeq to 9
+2022/05/04 18:02:49 I am 0 from gid 102, Starting to try for agreement on op {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 9 at time 2022-05-04 18:02:49.194155 -0400 EDT m=+0.531644325
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 10 with op {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102 propose seq 10 OK with op {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 10
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Setting globalSeq to 10
+2022/05/04 18:02:49 I am 0 from gid 102, Starting to try for agreement on op {Put 2022-05-04 18:02:48.799602 -0400 EDT m=+0.137058190-3842063965469126185-6 0 3510942875414458836 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 10 at time 2022-05-04 18:02:49.214683 -0400 EDT m=+0.552174844
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 11 with op {Put 2022-05-04 18:02:48.799602 -0400 EDT m=+0.137058190-3842063965469126185-6 0 3510942875414458836 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102 propose seq 11 OK with op {Put 2022-05-04 18:02:48.799602 -0400 EDT m=+0.137058190-3842063965469126185-6 0 3510942875414458836 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 11
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Put 2022-05-04 18:02:48.799602 -0400 EDT m=+0.137058190-3842063965469126185-6 0 3510942875414458836 true  1 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Setting globalSeq to 11
+2022/05/04 18:02:49 I am 0 from gid 102, Calling tick(). Got latest config to be {2 [100 100 100 100 100 101 101 101 101 101] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5]]}
+2022/05/04 18:02:49 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 2   false  1 {2 [100 100 100 100 100 101 101 101 101 101] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5]]}}. Global Seq is 11 at time 2022-05-04 18:02:49.299639 -0400 EDT m=+0.637137667
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 12 with op {Reconfiguration 2   false  1 {2 [100 100 100 100 100 101 101 101 101 101] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5]]}}
+2022/05/04 18:02:49 I am 0 from gid 102 propose seq 12 OK with op {Reconfiguration 2   false  1 {2 [100 100 100 100 100 101 101 101 101 101] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5]]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 12
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Reconfiguration 2   false  1 {2 [100 100 100 100 100 101 101 101 101 101] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5]]}}
+2022/05/04 18:02:49 I am 0 from gid 102, reconfiguring for config number: 2
+2022/05/04 18:02:49 I am 0 from gid 102, Moved data over to 2. cwp is 1, Data is map[0:0xc00034cae0 1:0xc00034caf0 2:0xc00034cb00 3:0xc00034cb10 4:0xc00034cb20 5:0xc00034cb30 6:0xc00034cb40 7:0xc00034cb50 8:0xc00034cb60 9:0xc00034cb70]
+2022/05/04 18:02:49 I am 0 from gid 102, Setting globalSeq to 12
+2022/05/04 18:02:49 I am 0 from gid 102. I tried to reconfigure on config num 2, err is OK
+2022/05/04 18:02:49 I am 0 from gid 102, Set current config num to 2
+2022/05/04 18:02:49 I am 0 from gid 102, Starting to try for agreement on op {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 12 at time 2022-05-04 18:02:49.341346 -0400 EDT m=+0.678847807
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 13 with op {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102 propose seq 13 OK with op {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 13
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Setting globalSeq to 13
+2022/05/04 18:02:49 I am 0 from gid 102, Starting to try for agreement on op {Put 2022-05-04 18:02:48.799599 -0400 EDT m=+0.137055694-1131958811625411542-7 7 1976235410884491574 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 13 at time 2022-05-04 18:02:49.456678 -0400 EDT m=+0.794189706
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 14 with op {Put 2022-05-04 18:02:48.799599 -0400 EDT m=+0.137055694-1131958811625411542-7 7 1976235410884491574 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102 propose seq 14 OK with op {Put 2022-05-04 18:02:48.799599 -0400 EDT m=+0.137055694-1131958811625411542-7 7 1976235410884491574 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 14
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Put 2022-05-04 18:02:48.799599 -0400 EDT m=+0.137055694-1131958811625411542-7 7 1976235410884491574 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Setting globalSeq to 14
+2022/05/04 18:02:49 I am 0 from gid 102, Starting to try for agreement on op {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 14 at time 2022-05-04 18:02:49.508516 -0400 EDT m=+0.846031954
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 15 with op {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 16 with op {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102 propose seq 16 OK with op {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 15
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Reconfiguration 3   false  2 {3 [100 100 100 100 102 101 101 101 102 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:49 I am 0 from gid 102, reconfiguring for config number: 3
+2022/05/04 18:02:49 I am 0 from gid 102, Moved data over to 3. cwp is 2, Data is map[0:0xc000326300 1:0xc000326310 2:0xc000326320 3:0xc000326330 4:0xc000326340 5:0xc000326350 6:0xc000326360 7:0xc000326370 8:0xc000326380 9:0xc000326390]
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-2
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, and I received map[]
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, and I received map[]
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, and I received map[1:721236649]
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 16
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Put 2022-05-04 18:02:48.799624 -0400 EDT m=+0.137080174-1111041226551941574-10 6 6263450610539110790 true  2 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Setting globalSeq to 16
+2022/05/04 18:02:49 I am 0 from gid 102, Calling tick(). Got latest config to be {3 [100 100 100 100 102 101 101 101 102 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}
+2022/05/04 18:02:49 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 3   false  2 {3 [100 100 100 100 102 101 101 101 102 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}. Global Seq is 16 at time 2022-05-04 18:02:49.730632 -0400 EDT m=+1.068167095
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 17 with op {Reconfiguration 3   false  2 {3 [100 100 100 100 102 101 101 101 102 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:49 I am 0 from gid 102 propose seq 17 OK with op {Reconfiguration 3   false  2 {3 [100 100 100 100 102 101 101 101 102 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 17
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Reconfiguration 3   false  2 {3 [100 100 100 100 102 101 101 101 102 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:49 I am 0 from gid 102, reconfiguring for config number: 3
+2022/05/04 18:02:49 I am 0 from gid 102, Moved data over to 3. cwp is 2, Data is map[0:0xc000326300 1:0xc000326310 2:0xc000326320 3:0xc000326330 4:0xc000326340 5:0xc000326350 6:0xc000326360 7:0xc000326370 8:0xc000326380 9:0xc000326390]
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-0
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-1
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, and I received map[]
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, and I received map[]
+2022/05/04 18:02:49 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:49 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:49 I am 0 from gid 102, and I received map[1:721236649]
+2022/05/04 18:02:49 I am 0 from gid 102, Setting globalSeq to 17
+2022/05/04 18:02:49 I am 0 from gid 102. I tried to reconfigure on config num 3, err is OK
+2022/05/04 18:02:49 I am 0 from gid 102, Set current config num to 3
+2022/05/04 18:02:49 I am 0 from gid 102, Starting to try for agreement on op {Get 2022-05-04 18:02:49.388818 -0400 EDT m=+0.726323961-1028711710306433403-25   false 10 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 17 at time 2022-05-04 18:02:49.75365 -0400 EDT m=+1.091186281
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 18 with op {Get 2022-05-04 18:02:49.388818 -0400 EDT m=+0.726323961-1028711710306433403-25   false 10 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102 propose seq 18 OK with op {Get 2022-05-04 18:02:49.388818 -0400 EDT m=+0.726323961-1028711710306433403-25   false 10 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 18
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Get 2022-05-04 18:02:49.388818 -0400 EDT m=+0.726323961-1028711710306433403-25   false 10 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, apply op: {Get 2022-05-04 18:02:49.388818 -0400 EDT m=+0.726323961-1028711710306433403-25   false 10 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, getKey: 10, value: , shard: 9
+2022/05/04 18:02:49 I am 0 from gid 102, Setting globalSeq to 18
+2022/05/04 18:02:49 I am 0 from gid 102, Starting to try for agreement on op {Get 2022-05-04 18:02:49.67643 -0400 EDT m=+1.013959768-2687861385100293752-43   false 1 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 18 at time 2022-05-04 18:02:49.842407 -0400 EDT m=+1.179950888
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 19 with op {Get 2022-05-04 18:02:49.67643 -0400 EDT m=+1.013959768-2687861385100293752-43   false 1 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102 propose seq 19 OK with op {Get 2022-05-04 18:02:49.67643 -0400 EDT m=+1.013959768-2687861385100293752-43   false 1 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 19
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Get 2022-05-04 18:02:49.67643 -0400 EDT m=+1.013959768-2687861385100293752-43   false 1 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, apply op: {Get 2022-05-04 18:02:49.67643 -0400 EDT m=+1.013959768-2687861385100293752-43   false 1 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, getKey: 1, value: 721236649, shard: 9
+2022/05/04 18:02:49 I am 0 from gid 102, Setting globalSeq to 19
+2022/05/04 18:02:49 I am 0 from gid 102, Starting to try for agreement on op {Put 2022-05-04 18:02:49.885717 -0400 EDT m=+1.223264314-3119458566822514575-44 1 990415953277272574 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 19 at time 2022-05-04 18:02:49.886243 -0400 EDT m=+1.223790040
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 20 with op {Put 2022-05-04 18:02:49.885717 -0400 EDT m=+1.223264314-3119458566822514575-44 1 990415953277272574 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102 propose seq 20 OK with op {Put 2022-05-04 18:02:49.885717 -0400 EDT m=+1.223264314-3119458566822514575-44 1 990415953277272574 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 20
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Put 2022-05-04 18:02:49.885717 -0400 EDT m=+1.223264314-3119458566822514575-44 1 990415953277272574 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, apply op: {Put 2022-05-04 18:02:49.885717 -0400 EDT m=+1.223264314-3119458566822514575-44 1 990415953277272574 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, putKey: 1, old: 721236649, new: 3727685659, shard: 9
+2022/05/04 18:02:49 I am 0 from gid 102, Setting globalSeq to 20
+2022/05/04 18:02:49 I am 0 from gid 102, Starting to try for agreement on op {Get 2022-05-04 18:02:49.907138 -0400 EDT m=+1.244686825-2113244747673261358-45   false 1 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 20 at time 2022-05-04 18:02:49.907428 -0400 EDT m=+1.244976872
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 21 with op {Get 2022-05-04 18:02:49.907138 -0400 EDT m=+1.244686825-2113244747673261358-45   false 1 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102 propose seq 21 OK with op {Get 2022-05-04 18:02:49.907138 -0400 EDT m=+1.244686825-2113244747673261358-45   false 1 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, Applying change for index 21
+2022/05/04 18:02:49 I am 0 from gid 102, Trying to apply change for {Get 2022-05-04 18:02:49.907138 -0400 EDT m=+1.244686825-2113244747673261358-45   false 1 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:49 I am 0 from gid 102, apply op: {Get 2022-05-04 18:02:49.907138 -0400 EDT m=+1.244686825-2113244747673261358-45   false 1 3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, getKey: 1, value: 3727685659, shard: 9
+2022/05/04 18:02:49 I am 0 from gid 102, Setting globalSeq to 21
+2022/05/04 18:02:49 I am 0 from gid 102, Starting to try for agreement on op {Put 2022-05-04 18:02:49.982777 -0400 EDT m=+1.320331655-2028515041604029415-46 1 919843791599379793 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 21 at time 2022-05-04 18:02:49.982969 -0400 EDT m=+1.320523414
+2022/05/04 18:02:49 I am 0 from gid 102 is proposing seq 22 with op {Put 2022-05-04 18:02:49.982777 -0400 EDT m=+1.320331655-2028515041604029415-46 1 919843791599379793 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:50 I am 0 from gid 102 propose seq 22 OK with op {Put 2022-05-04 18:02:49.982777 -0400 EDT m=+1.320331655-2028515041604029415-46 1 919843791599379793 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:50 I am 0 from gid 102, Applying change for index 22
+2022/05/04 18:02:50 I am 0 from gid 102, Trying to apply change for {Put 2022-05-04 18:02:49.982777 -0400 EDT m=+1.320331655-2028515041604029415-46 1 919843791599379793 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:50 I am 0 from gid 102, apply op: {Put 2022-05-04 18:02:49.982777 -0400 EDT m=+1.320331655-2028515041604029415-46 1 919843791599379793 true  3 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, putKey: 1, old: 3727685659, new: 1944327447, shard: 9
+2022/05/04 18:02:50 I am 0 from gid 102, Setting globalSeq to 22
+2022/05/04 18:02:50 I am 0 from gid 102, Calling tick(). Got latest config to be {4 [101 100 100 100 102 101 101 101 102 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}
+2022/05/04 18:02:50 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 4   false  3 {4 [101 100 100 100 102 101 101 101 102 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}. Global Seq is 22 at time 2022-05-04 18:02:50.030675 -0400 EDT m=+1.368233221
+2022/05/04 18:02:50 I am 0 from gid 102 is proposing seq 23 with op {Reconfiguration 4   false  3 {4 [101 100 100 100 102 101 101 101 102 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:50 I am 0 from gid 102 propose seq 23 OK with op {Reconfiguration 4   false  3 {4 [101 100 100 100 102 101 101 101 102 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:50 I am 0 from gid 102, Applying change for index 23
+2022/05/04 18:02:50 I am 0 from gid 102, Trying to apply change for {Reconfiguration 4   false  3 {4 [101 100 100 100 102 101 101 101 102 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:50 I am 0 from gid 102, reconfiguring for config number: 4
+2022/05/04 18:02:50 I am 0 from gid 102, Moved data over to 4. cwp is 3, Data is map[0:0xc000216db0 1:0xc000216dc0 2:0xc000216dd0 3:0xc000216de0 4:0xc000216df0 5:0xc000216e00 6:0xc000216e10 7:0xc000216e20 8:0xc000216e30 9:0xc000216e40]
+2022/05/04 18:02:50 I am 0 from gid 102, Setting globalSeq to 23
+2022/05/04 18:02:50 I am 0 from gid 102. I tried to reconfigure on config num 4, err is OK
+2022/05/04 18:02:50 I am 0 from gid 102, Set current config num to 4
+2022/05/04 18:02:50 I am 0 from gid 102, Starting to try for agreement on op {Get 2022-05-04 18:02:50.004257 -0400 EDT m=+1.341814020-809517602832218418-47   false 1 4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}. Global Seq is 23 at time 2022-05-04 18:02:50.030821 -0400 EDT m=+1.368379548
+2022/05/04 18:02:50 I am 0 from gid 102 is proposing seq 24 with op {Get 2022-05-04 18:02:50.004257 -0400 EDT m=+1.341814020-809517602832218418-47   false 1 4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:50 I am 0 from gid 102 propose seq 24 OK with op {Get 2022-05-04 18:02:50.004257 -0400 EDT m=+1.341814020-809517602832218418-47   false 1 4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:50 I am 0 from gid 102, Applying change for index 24
+2022/05/04 18:02:50 I am 0 from gid 102, Trying to apply change for {Get 2022-05-04 18:02:50.004257 -0400 EDT m=+1.341814020-809517602832218418-47   false 1 4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}
+2022/05/04 18:02:50 I am 0 from gid 102, apply op: {Get 2022-05-04 18:02:50.004257 -0400 EDT m=+1.341814020-809517602832218418-47   false 1 4 {0 [0 0 0 0 0 0 0 0 0 0] map[]}}, getKey: 1, value: 1944327447, shard: 9
+2022/05/04 18:02:50 I am 0 from gid 102, Setting globalSeq to 24
+2022/05/04 18:02:50 I am 0 from gid 102, Calling tick(). Got latest config to be {5 [101 100 100 100 102 101 101 101 102 101] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}
+2022/05/04 18:02:50 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 5   false  4 {5 [101 100 100 100 102 101 101 101 102 101] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}. Global Seq is 24 at time 2022-05-04 18:02:50.317779 -0400 EDT m=+1.655361271
+2022/05/04 18:02:50 I am 0 from gid 102 is proposing seq 25 with op {Reconfiguration 5   false  4 {5 [101 100 100 100 102 101 101 101 102 101] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:50 I am 0 from gid 102 propose seq 25 OK with op {Reconfiguration 5   false  4 {5 [101 100 100 100 102 101 101 101 102 101] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:50 I am 0 from gid 102, Applying change for index 25
+2022/05/04 18:02:50 I am 0 from gid 102, Trying to apply change for {Reconfiguration 5   false  4 {5 [101 100 100 100 102 101 101 101 102 101] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:50 I am 0 from gid 102, reconfiguring for config number: 5
+2022/05/04 18:02:50 I am 0 from gid 102, Moved data over to 5. cwp is 4, Data is map[0:0xc00034c6f0 1:0xc00034c700 2:0xc00034c710 3:0xc00034c720 4:0xc00034c730 5:0xc00034c740 6:0xc00034c750 7:0xc00034c760 8:0xc00034c770 9:0xc00034c780]
+2022/05/04 18:02:50 I am 0 from gid 102, Setting globalSeq to 25
+2022/05/04 18:02:50 I am 0 from gid 102. I tried to reconfigure on config num 5, err is OK
+2022/05/04 18:02:50 I am 0 from gid 102, Set current config num to 5
+2022/05/04 18:02:50 I am 0 from gid 102, Calling tick(). Got latest config to be {6 [101 100 100 100 102 101 101 101 102 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}
+2022/05/04 18:02:50 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 6   false  5 {6 [101 100 100 100 102 101 101 101 102 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}. Global Seq is 25 at time 2022-05-04 18:02:50.579037 -0400 EDT m=+1.916639529
+2022/05/04 18:02:50 I am 0 from gid 102 is proposing seq 26 with op {Reconfiguration 6   false  5 {6 [101 100 100 100 102 101 101 101 102 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:50 I am 0 from gid 102 propose seq 26 OK with op {Reconfiguration 6   false  5 {6 [101 100 100 100 102 101 101 101 102 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:50 I am 0 from gid 102, Applying change for index 26
+2022/05/04 18:02:50 I am 0 from gid 102, Trying to apply change for {Reconfiguration 6   false  5 {6 [101 100 100 100 102 101 101 101 102 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:50 I am 0 from gid 102, reconfiguring for config number: 6
+2022/05/04 18:02:50 I am 0 from gid 102, Moved data over to 6. cwp is 5, Data is map[0:0xc00034db20 1:0xc00034db30 2:0xc00034db40 3:0xc00034db50 4:0xc00034db60 5:0xc00034db70 6:0xc00034db80 7:0xc00034db90 8:0xc00034dba0 9:0xc00034dbb0]
+2022/05/04 18:02:50 I am 0 from gid 102, Setting globalSeq to 26
+2022/05/04 18:02:50 I am 0 from gid 102. I tried to reconfigure on config num 6, err is OK
+2022/05/04 18:02:50 I am 0 from gid 102, Set current config num to 6
+2022/05/04 18:02:50 I am 0 from gid 102, Calling tick(). Got latest config to be {7 [101 100 100 100 102 101 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}
+2022/05/04 18:02:50 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 7   false  6 {7 [101 100 100 100 102 101 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}. Global Seq is 26 at time 2022-05-04 18:02:50.850145 -0400 EDT m=+2.187769325
+2022/05/04 18:02:50 I am 0 from gid 102 is proposing seq 27 with op {Reconfiguration 7   false  6 {7 [101 100 100 100 102 101 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:50 I am 0 from gid 102 propose seq 27 OK with op {Reconfiguration 7   false  6 {7 [101 100 100 100 102 101 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:50 I am 0 from gid 102, Applying change for index 27
+2022/05/04 18:02:50 I am 0 from gid 102, Trying to apply change for {Reconfiguration 7   false  6 {7 [101 100 100 100 102 101 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:50 I am 0 from gid 102, reconfiguring for config number: 7
+2022/05/04 18:02:50 I am 0 from gid 102, Moved data over to 7. cwp is 6, Data is map[0:0xc0001f7b50 1:0xc0001f7b60 2:0xc0001f7b70 3:0xc0001f7b80 4:0xc0001f7b90 5:0xc0001f7ba0 6:0xc0001f7bb0 7:0xc0001f7bc0 8:0xc0001f7bd0 9:0xc0001f7be0]
+2022/05/04 18:02:50 I am 0 from gid 102, Setting globalSeq to 27
+2022/05/04 18:02:50 I am 0 from gid 102. I tried to reconfigure on config num 7, err is OK
+2022/05/04 18:02:50 I am 0 from gid 102, Set current config num to 7
+2022/05/04 18:02:50 I am 0 from gid 102, I am sending over map[] for shard 8 and configNum 6
+2022/05/04 18:02:50 I am 0 from gid 102, I am sending over map[] for shard 8 and configNum 6
+2022/05/04 18:02:50 I am 0 from gid 102, I am sending over map[] for shard 8 and configNum 6
+2022/05/04 18:02:51 I am 0 from gid 102, Calling tick(). Got latest config to be {8 [101 100 100 100 102 101 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}
+2022/05/04 18:02:51 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 8   false  7 {8 [101 100 100 100 102 101 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}. Global Seq is 27 at time 2022-05-04 18:02:51.112186 -0400 EDT m=+2.449830488
+2022/05/04 18:02:51 I am 0 from gid 102 is proposing seq 28 with op {Reconfiguration 8   false  7 {8 [101 100 100 100 102 101 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:51 I am 0 from gid 102 propose seq 28 OK with op {Reconfiguration 8   false  7 {8 [101 100 100 100 102 101 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:51 I am 0 from gid 102, Applying change for index 28
+2022/05/04 18:02:51 I am 0 from gid 102, Trying to apply change for {Reconfiguration 8   false  7 {8 [101 100 100 100 102 101 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:51 I am 0 from gid 102, reconfiguring for config number: 8
+2022/05/04 18:02:51 I am 0 from gid 102, Moved data over to 8. cwp is 7, Data is map[0:0xc000327100 1:0xc000327110 2:0xc000327120 3:0xc000327130 4:0xc000327140 5:0xc000327150 6:0xc000327160 7:0xc000327170 8:0xc000327180 9:0xc000327190]
+2022/05/04 18:02:51 I am 0 from gid 102, Setting globalSeq to 28
+2022/05/04 18:02:51 I am 0 from gid 102. I tried to reconfigure on config num 8, err is OK
+2022/05/04 18:02:51 I am 0 from gid 102, Set current config num to 8
+2022/05/04 18:02:51 I am 0 from gid 102, Calling tick(). Got latest config to be {9 [101 100 100 100 102 102 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}
+2022/05/04 18:02:51 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 9   false  8 {9 [101 100 100 100 102 102 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}. Global Seq is 28 at time 2022-05-04 18:02:51.373685 -0400 EDT m=+2.711349009
+2022/05/04 18:02:51 I am 0 from gid 102 is proposing seq 29 with op {Reconfiguration 9   false  8 {9 [101 100 100 100 102 102 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:51 I am 0 from gid 102 propose seq 29 OK with op {Reconfiguration 9   false  8 {9 [101 100 100 100 102 102 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:51 I am 0 from gid 102, Applying change for index 29
+2022/05/04 18:02:51 I am 0 from gid 102, Trying to apply change for {Reconfiguration 9   false  8 {9 [101 100 100 100 102 102 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:51 I am 0 from gid 102, reconfiguring for config number: 9
+2022/05/04 18:02:51 I am 0 from gid 102, Moved data over to 9. cwp is 8, Data is map[0:0xc000585270 1:0xc000585280 2:0xc000585290 3:0xc0005852a0 4:0xc0005852b0 5:0xc0005852c0 6:0xc0005852d0 7:0xc0005852e0 8:0xc0005852f0 9:0xc000585300]
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:51 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:51 I am 0 from gid 102, and I received map[]
+2022/05/04 18:02:51 I am 0 from gid 102, Setting globalSeq to 29
+2022/05/04 18:02:51 I am 0 from gid 102. I tried to reconfigure on config num 9, err is OK
+2022/05/04 18:02:51 I am 0 from gid 102, Set current config num to 9
+2022/05/04 18:02:51 I am 0 from gid 102, Calling tick(). Got latest config to be {10 [101 100 100 100 102 102 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}
+2022/05/04 18:02:51 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 10   false  9 {10 [101 100 100 100 102 102 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}. Global Seq is 29 at time 2022-05-04 18:02:51.720306 -0400 EDT m=+3.057996432
+2022/05/04 18:02:51 I am 0 from gid 102 is proposing seq 30 with op {Reconfiguration 10   false  9 {10 [101 100 100 100 102 102 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:51 I am 0 from gid 102 propose seq 30 OK with op {Reconfiguration 10   false  9 {10 [101 100 100 100 102 102 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:51 I am 0 from gid 102, Applying change for index 30
+2022/05/04 18:02:51 I am 0 from gid 102, Trying to apply change for {Reconfiguration 10   false  9 {10 [101 100 100 100 102 102 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:51 I am 0 from gid 102, reconfiguring for config number: 10
+2022/05/04 18:02:51 I am 0 from gid 102, Moved data over to 10. cwp is 9, Data is map[0:0xc0004285c0 1:0xc0004285d0 2:0xc0004285e0 3:0xc000428690 4:0xc0004286a0 5:0xc0004286b0 6:0xc0004286c0 7:0xc0004286d0 8:0xc0004286e0 9:0xc0004286f0]
+2022/05/04 18:02:51 I am 0 from gid 102, Setting globalSeq to 30
+2022/05/04 18:02:51 I am 0 from gid 102. I tried to reconfigure on config num 10, err is OK
+2022/05/04 18:02:51 I am 0 from gid 102, Set current config num to 10
+2022/05/04 18:02:52 I am 0 from gid 102, Calling tick(). Got latest config to be {11 [101 100 100 100 102 102 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}
+2022/05/04 18:02:52 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 11   false  10 {11 [101 100 100 100 102 102 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}. Global Seq is 30 at time 2022-05-04 18:02:52.004384 -0400 EDT m=+3.342095762
+2022/05/04 18:02:52 I am 0 from gid 102 is proposing seq 31 with op {Reconfiguration 11   false  10 {11 [101 100 100 100 102 102 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:52 I am 0 from gid 102 propose seq 31 OK with op {Reconfiguration 11   false  10 {11 [101 100 100 100 102 102 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:52 I am 0 from gid 102, Applying change for index 31
+2022/05/04 18:02:52 I am 0 from gid 102, Trying to apply change for {Reconfiguration 11   false  10 {11 [101 100 100 100 102 102 101 101 100 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:52 I am 0 from gid 102, reconfiguring for config number: 11
+2022/05/04 18:02:52 I am 0 from gid 102, Moved data over to 11. cwp is 10, Data is map[0:0xc000327e00 1:0xc000327e10 2:0xc000327e20 3:0xc000327e30 4:0xc000327e40 5:0xc000327e50 6:0xc000327e60 7:0xc000327e70 8:0xc000327e80 9:0xc000327e90]
+2022/05/04 18:02:52 I am 0 from gid 102, Setting globalSeq to 31
+2022/05/04 18:02:52 I am 0 from gid 102. I tried to reconfigure on config num 11, err is OK
+2022/05/04 18:02:52 I am 0 from gid 102, Set current config num to 11
+2022/05/04 18:02:52 I am 0 from gid 102, Calling tick(). Got latest config to be {12 [101 100 100 100 102 102 101 101 101 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}
+2022/05/04 18:02:52 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 12   false  11 {12 [101 100 100 100 102 102 101 101 101 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}. Global Seq is 31 at time 2022-05-04 18:02:52.294992 -0400 EDT m=+3.632725228
+2022/05/04 18:02:52 I am 0 from gid 102 is proposing seq 32 with op {Reconfiguration 12   false  11 {12 [101 100 100 100 102 102 101 101 101 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:52 I am 0 from gid 102 propose seq 32 OK with op {Reconfiguration 12   false  11 {12 [101 100 100 100 102 102 101 101 101 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:52 I am 0 from gid 102, Applying change for index 32
+2022/05/04 18:02:52 I am 0 from gid 102, Trying to apply change for {Reconfiguration 12   false  11 {12 [101 100 100 100 102 102 101 101 101 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:52 I am 0 from gid 102, reconfiguring for config number: 12
+2022/05/04 18:02:52 I am 0 from gid 102, Moved data over to 12. cwp is 11, Data is map[0:0xc000500570 1:0xc000500580 2:0xc000500590 3:0xc0005005a0 4:0xc0005005b0 5:0xc0005005c0 6:0xc0005005d0 7:0xc0005005e0 8:0xc0005005f0 9:0xc000500600]
+2022/05/04 18:02:52 I am 0 from gid 102, Setting globalSeq to 32
+2022/05/04 18:02:52 I am 0 from gid 102. I tried to reconfigure on config num 12, err is OK
+2022/05/04 18:02:52 I am 0 from gid 102, Set current config num to 12
+2022/05/04 18:02:52 I am 0 from gid 102, Calling tick(). Got latest config to be {13 [101 100 100 100 102 100 101 101 101 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}
+2022/05/04 18:02:52 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 13   false  12 {13 [101 100 100 100 102 100 101 101 101 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}. Global Seq is 32 at time 2022-05-04 18:02:52.565972 -0400 EDT m=+3.903725678
+2022/05/04 18:02:52 I am 0 from gid 102 is proposing seq 33 with op {Reconfiguration 13   false  12 {13 [101 100 100 100 102 100 101 101 101 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:52 I am 0 from gid 102 propose seq 33 OK with op {Reconfiguration 13   false  12 {13 [101 100 100 100 102 100 101 101 101 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:52 I am 0 from gid 102, Applying change for index 33
+2022/05/04 18:02:52 I am 0 from gid 102, Trying to apply change for {Reconfiguration 13   false  12 {13 [101 100 100 100 102 100 101 101 101 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:52 I am 0 from gid 102, reconfiguring for config number: 13
+2022/05/04 18:02:52 I am 0 from gid 102, Moved data over to 13. cwp is 12, Data is map[0:0xc000103970 1:0xc000103990 2:0xc0001039a0 3:0xc0001039b0 4:0xc0001039c0 5:0xc0001039d0 6:0xc0001039e0 7:0xc0001039f0 8:0xc000103a00 9:0xc000103a10]
+2022/05/04 18:02:52 I am 0 from gid 102, Setting globalSeq to 33
+2022/05/04 18:02:52 I am 0 from gid 102. I tried to reconfigure on config num 13, err is OK
+2022/05/04 18:02:52 I am 0 from gid 102, Set current config num to 13
+2022/05/04 18:02:52 I am 0 from gid 102, I am sending over map[] for shard 5 and configNum 12
+2022/05/04 18:02:52 I am 0 from gid 102, I am sending over map[] for shard 5 and configNum 12
+2022/05/04 18:02:52 I am 0 from gid 102, I am sending over map[] for shard 5 and configNum 12
+2022/05/04 18:02:52 I am 0 from gid 102, Calling tick(). Got latest config to be {14 [101 100 100 101 102 100 101 101 101 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}
+2022/05/04 18:02:52 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 14   false  13 {14 [101 100 100 101 102 100 101 101 101 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}. Global Seq is 33 at time 2022-05-04 18:02:52.837682 -0400 EDT m=+4.175454822
+2022/05/04 18:02:52 I am 0 from gid 102 is proposing seq 34 with op {Reconfiguration 14   false  13 {14 [101 100 100 101 102 100 101 101 101 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:52 I am 0 from gid 102 propose seq 34 OK with op {Reconfiguration 14   false  13 {14 [101 100 100 101 102 100 101 101 101 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:52 I am 0 from gid 102, Applying change for index 34
+2022/05/04 18:02:52 I am 0 from gid 102, Trying to apply change for {Reconfiguration 14   false  13 {14 [101 100 100 101 102 100 101 101 101 100] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:52 I am 0 from gid 102, reconfiguring for config number: 14
+2022/05/04 18:02:52 I am 0 from gid 102, Moved data over to 14. cwp is 13, Data is map[0:0xc000446c60 1:0xc000446c70 2:0xc000446c80 3:0xc000446c90 4:0xc000446ca0 5:0xc000446cb0 6:0xc000446cc0 7:0xc000446cd0 8:0xc000446ce0 9:0xc000446cf0]
+2022/05/04 18:02:52 I am 0 from gid 102, Setting globalSeq to 34
+2022/05/04 18:02:52 I am 0 from gid 102. I tried to reconfigure on config num 14, err is OK
+2022/05/04 18:02:52 I am 0 from gid 102, Set current config num to 14
+2022/05/04 18:02:53 I am 0 from gid 102, Calling tick(). Got latest config to be {15 [101 100 100 101 102 100 101 101 101 101] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}
+2022/05/04 18:02:53 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 15   false  14 {15 [101 100 100 101 102 100 101 101 101 101] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}. Global Seq is 34 at time 2022-05-04 18:02:53.108879 -0400 EDT m=+4.446671246
+2022/05/04 18:02:53 I am 0 from gid 102 is proposing seq 35 with op {Reconfiguration 15   false  14 {15 [101 100 100 101 102 100 101 101 101 101] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:53 I am 0 from gid 102 propose seq 35 OK with op {Reconfiguration 15   false  14 {15 [101 100 100 101 102 100 101 101 101 101] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:53 I am 0 from gid 102, Applying change for index 35
+2022/05/04 18:02:53 I am 0 from gid 102, Trying to apply change for {Reconfiguration 15   false  14 {15 [101 100 100 101 102 100 101 101 101 101] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:53 I am 0 from gid 102, reconfiguring for config number: 15
+2022/05/04 18:02:53 I am 0 from gid 102, Moved data over to 15. cwp is 14, Data is map[0:0xc00009c2a0 1:0xc00009c2b0 2:0xc00009c2c0 3:0xc00009c2d0 4:0xc00009c2e0 5:0xc00009c2f0 6:0xc00009c300 7:0xc00009c310 8:0xc00009c320 9:0xc00009c330]
+2022/05/04 18:02:53 I am 0 from gid 102, Setting globalSeq to 35
+2022/05/04 18:02:53 I am 0 from gid 102. I tried to reconfigure on config num 15, err is OK
+2022/05/04 18:02:53 I am 0 from gid 102, Set current config num to 15
+2022/05/04 18:02:53 I am 0 from gid 102, Calling tick(). Got latest config to be {16 [101 100 100 101 102 100 101 101 101 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}
+2022/05/04 18:02:53 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 16   false  15 {16 [101 100 100 101 102 100 101 101 101 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}. Global Seq is 35 at time 2022-05-04 18:02:53.380483 -0400 EDT m=+4.718294078
+2022/05/04 18:02:53 I am 0 from gid 102 is proposing seq 36 with op {Reconfiguration 16   false  15 {16 [101 100 100 101 102 100 101 101 101 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:53 I am 0 from gid 102 propose seq 36 OK with op {Reconfiguration 16   false  15 {16 [101 100 100 101 102 100 101 101 101 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:53 I am 0 from gid 102, Applying change for index 36
+2022/05/04 18:02:53 I am 0 from gid 102, Trying to apply change for {Reconfiguration 16   false  15 {16 [101 100 100 101 102 100 101 101 101 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:53 I am 0 from gid 102, reconfiguring for config number: 16
+2022/05/04 18:02:53 I am 0 from gid 102, Moved data over to 16. cwp is 15, Data is map[0:0xc000446580 1:0xc000446590 2:0xc0004465a0 3:0xc0004465b0 4:0xc0004465c0 5:0xc0004465d0 6:0xc0004465e0 7:0xc0004465f0 8:0xc000446600 9:0xc000446610]
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-5
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-3
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, making call to /var/tmp/824-501/skv-40843-concfalses-4
+2022/05/04 18:02:53 I am 0 from gid 102, and call completed and ok is true
+2022/05/04 18:02:53 I am 0 from gid 102, and I received map[1:1944327447 10:2832836966]
+2022/05/04 18:02:53 I am 0 from gid 102, Setting globalSeq to 36
+2022/05/04 18:02:53 I am 0 from gid 102. I tried to reconfigure on config num 16, err is OK
+2022/05/04 18:02:53 I am 0 from gid 102, Set current config num to 16
+2022/05/04 18:02:53 I am 0 from gid 102, Calling tick(). Got latest config to be {17 [101 100 100 101 101 100 101 101 101 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}
+2022/05/04 18:02:53 I am 0 from gid 102, Starting to try for agreement on op {Reconfiguration 17   false  16 {17 [101 100 100 101 101 100 101 101 101 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}. Global Seq is 36 at time 2022-05-04 18:02:53.73704 -0400 EDT m=+5.074876891
+2022/05/04 18:02:53 I am 0 from gid 102 is proposing seq 37 with op {Reconfiguration 17   false  16 {17 [101 100 100 101 101 100 101 101 101 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:53 I am 0 from gid 102 propose seq 37 OK with op {Reconfiguration 17   false  16 {17 [101 100 100 101 101 100 101 101 101 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:53 I am 0 from gid 102, Applying change for index 37
+2022/05/04 18:02:53 I am 0 from gid 102, Trying to apply change for {Reconfiguration 17   false  16 {17 [101 100 100 101 101 100 101 101 101 102] map[100:[/var/tmp/824-501/skv-40843-concfalses-0 /var/tmp/824-501/skv-40843-concfalses-1 /var/tmp/824-501/skv-40843-concfalses-2] 101:[/var/tmp/824-501/skv-40843-concfalses-3 /var/tmp/824-501/skv-40843-concfalses-4 /var/tmp/824-501/skv-40843-concfalses-5] 102:[/var/tmp/824-501/skv-40843-concfalses-6 /var/tmp/824-501/skv-40843-concfalses-7 /var/tmp/824-501/skv-40843-concfalses-8]]}}
+2022/05/04 18:02:53 I am 0 from gid 102, reconfiguring for config number: 17
+2022/05/04 18:02:53 I am 0 from gid 102, Moved data over to 17. cwp is 16, Data is map[0:0xc000340740 1:0xc000340750 2:0xc000340760 3:0xc000340770 4:0xc000340820 5:0xc000340830 6:0xc000340840 7:0xc000340850 8:0xc000340860 9:0xc000340870]
+2022/05/04 18:02:53 I am 0 from gid 102, Setting globalSeq to 37
+2022/05/04 18:02:53 I am 0 from gid 102. I tried to reconfigure on config num 17, err is OK
+2022/05/04 18:02:53 I am 0 from gid 102, Set current config num to 17

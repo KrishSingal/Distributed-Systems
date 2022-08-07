@@ -1,0 +1,76 @@
+2022/02/08 14:39:12 rpc.Register: method "ActiveList" has 1 input parameters; needs exactly three
+2022/02/08 14:39:12 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+{0  }
+false
+Test: First primary ...
+{0  }
+false
+  ... Passed
+Test: First backup ...
+{1 /var/tmp/824-501/viewserver-99479-1 }
+true
+  ... Passed
+Test: Backup takes over if primary fails ...
+{2 /var/tmp/824-501/viewserver-99479-1 /var/tmp/824-501/viewserver-99479-2}
+true
+{2 /var/tmp/824-501/viewserver-99479-1 /var/tmp/824-501/viewserver-99479-2}
+true
+  ... Passed
+Test: Restarted server becomes backup ...
+{3 /var/tmp/824-501/viewserver-99479-2 }
+true
+  ... Passed
+Test: Idle third server becomes backup if primary fails ...
+{4 /var/tmp/824-501/viewserver-99479-2 /var/tmp/824-501/viewserver-99479-1}
+true
+{4 /var/tmp/824-501/viewserver-99479-2 /var/tmp/824-501/viewserver-99479-1}
+true
+{5 /var/tmp/824-501/viewserver-99479-1 }
+true
+  ... Passed
+Test: Restarted primary treated as dead ...
+{6 /var/tmp/824-501/viewserver-99479-1 /var/tmp/824-501/viewserver-99479-3}
+true
+  ... Passed
+{7 /var/tmp/824-501/viewserver-99479-3 }
+true
+{8 /var/tmp/824-501/viewserver-99479-3 /var/tmp/824-501/viewserver-99479-1}
+true
+{8 /var/tmp/824-501/viewserver-99479-3 /var/tmp/824-501/viewserver-99479-1}
+true
+{8 /var/tmp/824-501/viewserver-99479-3 }
+true
+{8 /var/tmp/824-501/viewserver-99479-3 }
+true
+{8 /var/tmp/824-501/viewserver-99479-3 }
+true
+{8 /var/tmp/824-501/viewserver-99479-3 }
+true
+{8 /var/tmp/824-501/viewserver-99479-3 }
+true
+{8 /var/tmp/824-501/viewserver-99479-3 }
+true
+{8 /var/tmp/824-501/viewserver-99479-3 }
+true
+{8 /var/tmp/824-501/viewserver-99479-3 }
+true
+{8 /var/tmp/824-501/viewserver-99479-3 }
+true
+{8 /var/tmp/824-501/viewserver-99479-3 }
+true
+{8 /var/tmp/824-501/viewserver-99479-3 }
+true
+{8 /var/tmp/824-501/viewserver-99479-3 }
+true
+Test: Viewserver waits for primary to ack view ...
+{8 /var/tmp/824-501/viewserver-99479-3 }
+true
+{9 /var/tmp/824-501/viewserver-99479-3 /var/tmp/824-501/viewserver-99479-1}
+true
+{9 /var/tmp/824-501/viewserver-99479-3 /var/tmp/824-501/viewserver-99479-1}
+true
+--- FAIL: Test1 (2.81s)
+    test_test.go:13: wanted primary /var/tmp/824-501/viewserver-99479-3, got /var/tmp/824-501/viewserver-99479-1
+FAIL
+exit status 1
+FAIL	viewservice	3.126s

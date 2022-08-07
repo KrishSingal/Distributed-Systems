@@ -1,0 +1,47 @@
+1
+  ... Passed
+PASS
+ok  	shardkv	36.672s
+2
+  ... Passed
+PASS
+ok  	shardkv	38.753s
+3
+  ... Passed
+PASS
+ok  	shardkv	43.097s
+4
+  ... Passed
+PASS
+ok  	shardkv	37.634s
+5
+  ... Passed
+PASS
+ok  	shardkv	45.031s
+6
+  ... Passed
+PASS
+ok  	shardkv	37.906s
+7
+  ... Passed
+PASS
+ok  	shardkv	43.599s
+8
+  ... Passed
+PASS
+ok  	shardkv	43.260s
+9
+  ... Passed
+PASS
+ok  	shardkv	46.768s
+10
+  ... Passed
+PASS
+ok  	shardkv	37.339s
+11
+Test: Basic Join/Leave ...
+signal: interrupt
+FAIL	shardkv	5.390s
+12
+signal: interrupt
+FAIL	shardkv	0.010s
